@@ -1,0 +1,15 @@
+mixin btn_list(params)
+	a(href="/#{params.link}")
+		li= params.name
+mixin btn_sub(params)
+	a(href="/#{params.link}")
+		.btns_sub(id="#{params.link}-sub")
+			.imgInner(id="#{params.link}-img")
+			p= params.name
+mixin cuote(params)
+	.redTag
+		h3= params.title
+		.holdinfo
+			.braket.bleft
+			p= params.info
+			.braket.bright

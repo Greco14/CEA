@@ -1,3 +1,179 @@
+nav {
+  width: 100%;
+  height: 90px;
+  position: relative;
+  z-index: 3; }
+  nav .topNav {
+    width: 100%;
+    height: 28px;
+    position: relative;
+    padding-top: 5px; }
+    nav .topNav .innertop {
+      width: 135px;
+      height: 100%;
+      position: relative;
+      float: right; }
+      nav .topNav .innertop .btn-social {
+        width: 25px;
+        height: 20px;
+        position: relative;
+        float: left;
+        background-position: center;
+        background-repeat: no-repeat;
+        margin-right: 20px; }
+        nav .topNav .innertop .btn-social.fb_top {
+          background-image: url("../assets/images/gui/home/fb_share.png"); }
+        nav .topNav .innertop .btn-social.tt_top {
+          background-image: url("../assets/images/gui/home/tt_share.png"); }
+        nav .topNav .innertop .btn-social.yt_top {
+          background-image: url("../assets/images/gui/home/yt_share.png"); }
+        nav .topNav .innertop .btn-social:hover {
+          opacity: 0.9; }
+  nav .btmNav {
+    width: 100%;
+    height: 60px;
+    position: relative;
+    background-color: #ededed; }
+    nav .btmNav ul {
+      width: 575px;
+      height: 15px;
+      position: relative;
+      float: right;
+      padding-left: 0;
+      margin-top: 23px; }
+      nav .btmNav ul li {
+        float: left;
+        margin-right: 25px; }
+        nav .btmNav ul li:hover {
+          color: #363636; }
+  nav .logo {
+    width: 110px;
+    height: 110px;
+    position: absolute;
+    top: 0;
+    left: 30px; }
+    nav .logo img {
+      width: 100%;
+      height: 100%; }
+  nav .underNav {
+    width: 100%;
+    height: 0px;
+    position: absolute;
+    top: 85px;
+    left: 0;
+    background-color: #e5e5e5;
+    overflow: hidden; }
+    nav .underNav .innerSub {
+      width: 450px;
+      height: 92px;
+      position: relative;
+      margin: 0 auto;
+      margin-top: 25px; }
+      nav .underNav .innerSub .btns_sub {
+        width: 150px;
+        height: 100%;
+        position: relative;
+        float: left; }
+        nav .underNav .innerSub .btns_sub .imgInner {
+          width: 62px;
+          height: 62px;
+          position: relative;
+          margin: 0 auto;
+          background-repeat: no-repeat;
+          background-position: center;
+          margin-bottom: 8px; }
+          nav .underNav .innerSub .btns_sub .imgInner#quienes_somos-img {
+            background-image: url("../assets/images/gui/home/sub_quien.png"); }
+          nav .underNav .innerSub .btns_sub .imgInner#directorio-img {
+            background-image: url("../assets/images/gui/home/sub_direct.png"); }
+          nav .underNav .innerSub .btns_sub .imgInner#organigrama-img {
+            background-image: url("../assets/images/gui/home/sub_organi.png"); }
+        nav .underNav .innerSub .btns_sub p {
+          font-weight: bold;
+          text-align: center; }
+      nav .underNav .innerSub#directorio-sub {
+        width: 70px;
+        margin-left: 95px;
+        margin-right: 95px; }
+      nav .underNav .innerSub#organigrama-sub {
+        width: 82px; }
+
+.top_cover {
+  width: 100%;
+  height: 440px;
+  position: relative; }
+
+.intro {
+  width: 960px;
+  margin: 0 auto;
+  position: relative; }
+  .intro .copyIntro, .intro .imgIntro {
+    width: 40%;
+    height: 320px;
+    float: left;
+    padding-left: 5%;
+    position: relative;
+    padding-top: 30px; }
+    .intro .copyIntro h1, .intro .imgIntro h1 {
+      margin-bottom: 30px;
+      text-align: left;
+      margin-top: 35px; }
+    .intro .copyIntro p, .intro .imgIntro p {
+      margin-left: 20px;
+      margin-bottom: 15px; }
+
+.more-home, .galeria-home {
+  background-color: #d2d2d2; }
+
+.noticias-home {
+  height: 470px; }
+
+.medio_img {
+  width: 450px;
+  height: 300px;
+  position: relative;
+  background-color: #ffffff; }
+  .medio_img .in {
+    width: 440px;
+    height: 290px;
+    position: absolute;
+    top: 5px;
+    left: 5px;
+    overflow: hidden; }
+    .medio_img .in img {
+      height: 100%;
+      position: absolute;
+      top: 0;
+      left: 0; }
+
+.tecio_img {
+  width: 300px;
+  height: 300px;
+  position: relative;
+  background-color: #ffffff; }
+  .tecio_img .in {
+    width: 290px;
+    height: 290px;
+    position: relative;
+    margin-top: 5px;
+    margin-left: 5px;
+    overflow: hidden; }
+    .tecio_img .in img {
+      width: 100%;
+      position: absolute;
+      top: 0;
+      left: 0; }
+
+footer {
+  width: 100%;
+  height: 50px;
+  background-color: #ededed; }
+  footer p {
+    font-size: 12px;
+    margin-left: 30px;
+    top: 20px;
+    position: relative; }
+
 html, body {
   margin: 0 auto;
   min-width: 1000px;
@@ -18,7 +194,7 @@ sub {
   font-size: 10px;
   top: -8px;
   position: relative;
-  color: white;
+  color: #fff;
   left: -3px; }
 
 h2, h3 {
@@ -27,12 +203,16 @@ h2, h3 {
   text-align: left;
   color: #363636; }
 
+h3 {
+  font-size: 20px; }
+
 h1 {
   text-align: center;
   margin: 0;
   font-size: 40px;
   text-align: center;
-  color: #e73541; }
+  color: #e73541;
+  font-weight: bold; }
 
 ul {
   padding-left: 22px;
@@ -46,6 +226,11 @@ ul li {
 input {
   outline: none;
   border: none; }
+
+section {
+  width: 100%;
+  height: 360px;
+  position: relative; }
 
 .autoalpha-0 {
   opacity: 0;
@@ -73,6 +258,44 @@ input {
 .btn-borders {
   border-radius: 5px; }
 
+.shodowiT {
+  -webkit-box-shadow: 0px 0px 5px -1px rgba(50, 50, 50, 0.53);
+  -moz-box-shadow: 0px 0px 5px -1px rgba(50, 50, 50, 0.53);
+  box-shadow: 0px 0px 5px -1px rgba(50, 50, 50, 0.53); }
+
 #wrapper {
   width: 1000px;
-  height: auto; }
+  height: auto;
+  margin: 0 auto; }
+  #wrapper .redTag {
+    width: 100%;
+    height: 125px;
+    position: relative;
+    background-color: #e73541;
+    padding-top: 25px; }
+    #wrapper .redTag h3 {
+      text-align: center;
+      color: #f0f0f2; }
+    #wrapper .redTag .holdinfo {
+      width: 810px;
+      height: 85px;
+      position: relative;
+      margin: 0 auto; }
+      #wrapper .redTag .holdinfo .braket {
+        width: 30px;
+        height: 85px;
+        position: relative;
+        float: left; }
+        #wrapper .redTag .holdinfo .braket.bleft {
+          background-image: url("../assets/images/gui/home/bl.png"); }
+        #wrapper .redTag .holdinfo .braket.bright {
+          background-image: url("../assets/images/gui/home/br.png"); }
+      #wrapper .redTag .holdinfo p {
+        width: 710px;
+        position: relative;
+        float: left;
+        text-align: center;
+        color: #f0f0f2;
+        margin-left: 20px;
+        margin-right: 20px;
+        margin-top: 15px; }
