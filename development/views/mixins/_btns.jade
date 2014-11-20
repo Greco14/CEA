@@ -13,3 +13,10 @@ mixin cuote(params)
 			.braket.bleft
 			p= params.info
 			.braket.bright
+mixin img_box(params)
+	.shodowiT(class="#{params.type}_img" id="#{params.elId}-img")
+		.in
+			img(src="assets/images/gui/#{params.locate}/#{params.name}.jpg")
+			.hover_img(id="#{params.elId}-hover")
+				.btn_plac.center-all.btn-borders
+					p= params.infoBtn

@@ -7,10 +7,79 @@ section
 			p Lorem Ipsum es simplemente el texto de relleno de las imprentas y archivos de texto. Lorem Ipsum ha sido el texto de relleno estándar de las industrias desde el año 1500, cuando un impresor.
 			p Lorem Ipsum es simplemente el texto de relleno de las imprentas y archivos de texto. Lorem Ipsum ha sido el texto de relleno.
 		.imgIntro
-			.medio_img.shodowiT
-				.in
-					img(src="assets/images/gui/home/img_gd.jpg")
+			+img_box({type:'medio', elId:'home_main', locate:'home', name:'img_gd', infoBtn:'Leer más'})
+	
 section.more-home
+	.section-half
+		.inPicInfo.center-all
+			h3 Servicios
+			p Realizamos la instalación de  Plantas de Tratamientos de Aguas Residuales y/o Sanitarias.
+			.imgSect
+				+img_box({type:'medio', elId:'serv_home_main', locate:'home', name:'img_gd', infoBtn:'Leer más'})
+	.section-half
+		.inPicInfo.center-all
+			h3 Directorio
+			p Contacta facilmente a nuestro equipo de trabajo.
+			.imgSect
+				+img_box({type:'medio', elId:'serv_home_main', locate:'home', name:'img_gd', infoBtn:'Leer más'})
+
 +cuote({title:'Consejo del día', info:'Al momento de lavar tu coche, utiliza una tina o cubeta evitando el uso de la manguera, así ahorras agua y cuidas tus bolsillos.'})
+
 section.noticias-home
+	h1 Noticias
+	.section-third
+		.noticiasInfo.center-all
+			.infoIn
+				p Supervisión de obras de compromisos presidenciales.
+			.date
+				p 25/09/2014
+			+img_box({type:'tercio', elId:'serv_home_main', locate:'home', name:'img_ch', infoBtn:'Leer nota'})
+	.section-third
+		.noticiasInfo.center-all
+			.infoIn
+				p Arranque de obra de agua potable en ejido San Juan de la Vaquería, Saltillo.
+			.date
+				p 25/09/2014
+			+img_box({type:'tercio', elId:'serv_home_main', locate:'home', name:'img_ch', infoBtn:'Leer nota'})
+	.section-third
+		.noticiasInfo.center-all
+			.infoIn
+				p Reunión en CONAGUA Coahuila.
+			.date
+				p 25/09/2014
+			.infoNoticias
+				p Reunión del Director de CEAS Coahuila Lic. Juan Carlos Ayup Guerrero, Lic. Hugo Martínez (Director Local CONAGUA Coahuila) y el Ing. Oscar Gutierrez Santana,(Director de Cuenca Rio Bravo CONAGUA) para dar seguimiento a los Compromisos Presidenciales en obras hidráulicas
+			.btnHold
+				.btn_plac.center-all.btn-borders
+					p Leer nota
+	
 section.noticias-home.galeria-home
+	h1 Galerías
+	.section-third
+		.noticiasInfo.center-all
+			.infoIn
+				p Presentacón portal Gobierno Abierto.
+			.date
+				p 25/09/2014
+			+img_box({type:'tercio', elId:'serv_home_main', locate:'home', name:'img_ch', infoBtn:'Leer nota'})
+	.section-third
+		.noticiasInfo.center-all
+			.infoIn
+				p Ley de Acceso a la información.
+			.date
+				p 25/09/2014
+			+img_box({type:'tercio', elId:'serv_home_main', locate:'home', name:'img_ch', infoBtn:'Leer nota'})
+	.section-third
+
+		.noticiasInfo.center-all
+			.infoIn
+				p Construcción de Red Atarjeas Piedras negras
+			.date
+				p 25/09/2014
+			+img_box({type:'tercio', elId:'serv_home_main', locate:'home', name:'img_ch', infoBtn:'Leer nota'})
+
+
+
+
+
+
