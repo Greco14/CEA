@@ -14,9 +14,9 @@ mixin cuote(params)
 			p= params.info
 			.braket.bright
 mixin img_box(params)
-	.shodowiT(class="#{params.type}_img" id="#{params.elId}-img")
+	.shodowiT.imgs_hovers(class="#{params.type}_img" id="#{params.elId}-img")
 		.in
 			img(src="assets/images/gui/#{params.locate}/#{params.name}.jpg")
-			.hover_img(id="#{params.elId}-hover")
+			.hover_img(id="#{params.elId}-img-hover")
 				.btn_plac.center-all.btn-borders
 					p= params.infoBtn
