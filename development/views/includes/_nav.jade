@@ -1,9 +1,15 @@
 nav
 	.underNav
-		.innerSub
+		.innerSub#nosotros-top_sub
 			+btn_sub({link:'quienes_somos', name:'Quienes somos'})
 			+btn_sub({link:'directorio', name:'Directorio'})
 			+btn_sub({link:'organigrama', name:'Organigrama'})
+		.innerSub#comunicacion-top_sub
+			+btn_sub({link:'noticias', name:'Noticias'})
+			+btn_sub({link:'galeria', name:'Galería'})
+		.innerSub#municipios-top_sub
+			+btn_sub({link:'sitios_de_interes', name:'Sitios de interes'})
+			+btn_sub({link:'transparencia', name:'Transparencia'})
 	.topNav
 		.innertop
 			a(href="#", target="_blank")
@@ -14,12 +20,12 @@ nav
 				.yt_top.btn-social
 	.btmNav.shodowiT
 		ul
-			+btn_list({link:'nosotros', name:'ACERCA DE NOSOTROS'})
-			+btn_list({link:'servicios', name:'SERVICIOS'})
-			+btn_list({link:'comuniacion', name:'COMUNICACIÓN'})
-			+btn_list({link:'municipios', name:'MUNICIPIOS'})
-			+btn_list({link:'contacto', name:'CONTACTO'})
+			+btn_list({link:'nosotros', name:'ACERCA DE NOSOTROS', subMenu:'yes'})
+			+btn_list({link:'servicios', name:'SERVICIOS', subMenu:'no'})
+			+btn_list({link:'comunicacion', name:'COMUNICACIÓN', subMenu:'yes'})
+			+btn_list({link:'municipios', name:'MUNICIPIOS', subMenu:'yes'})
+			+btn_list({link:'contacto', name:'CONTACTO',  subMenu:'no' })
 	a(href="/")
-		.logo.shodowiT
+		.logo
 			img(src="assets/images/gui/home/logo.jpg")
 	

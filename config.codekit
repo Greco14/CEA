@@ -125,6 +125,17 @@
 		"outputStyle": 1,
 		"syntaxCheckerStyle": 1
 		},
+	"\/development\/scripts\/gui\/_sub_nav.js": {
+		"fileType": 64,
+		"ignore": 1,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/development\/scripts\/gui\/_sub_nav.js",
+		"outputAbbreviatedPath": "\/development\/scripts\/gui\/min\/_sub_nav-min.js",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 1,
+		"syntaxCheckerStyle": 1
+		},
 	"\/development\/scripts\/main.js": {
 		"fileType": 64,
 		"ignore": 0,
@@ -235,6 +246,28 @@
 		"outputPathIsSetByUser": 0,
 		"outputStyle": 0
 		},
+	"\/public\/assets\/images\/gui\/comunicacion\/sub_gal.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 2823,
+		"inputAbbreviatedPath": "\/public\/assets\/images\/gui\/comunicacion\/sub_gal.png",
+		"outputAbbreviatedPath": "\/public\/assets\/images\/gui\/comunicacion\/sub_gal.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/public\/assets\/images\/gui\/comunicacion\/sub_noti.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 3012,
+		"inputAbbreviatedPath": "\/public\/assets\/images\/gui\/comunicacion\/sub_noti.png",
+		"outputAbbreviatedPath": "\/public\/assets\/images\/gui\/comunicacion\/sub_noti.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
 	"\/public\/assets\/images\/gui\/home\/bl.png": {
 		"fileType": 32768,
 		"ignore": 0,
@@ -279,6 +312,17 @@
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
+	"\/public\/assets\/images\/gui\/home\/gob_logo.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 197910,
+		"inputAbbreviatedPath": "\/public\/assets\/images\/gui\/home\/gob_logo.jpg",
+		"outputAbbreviatedPath": "\/public\/assets\/images\/gui\/home\/gob_logo.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
 	"\/public\/assets\/images\/gui\/home\/img_ch.jpg": {
 		"fileType": 16384,
 		"ignore": 0,
@@ -308,6 +352,28 @@
 		"initialSize": 3935,
 		"inputAbbreviatedPath": "\/public\/assets\/images\/gui\/home\/logo.jpg",
 		"outputAbbreviatedPath": "\/public\/assets\/images\/gui\/home\/logo.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/public\/assets\/images\/gui\/home\/logos.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 25808,
+		"inputAbbreviatedPath": "\/public\/assets\/images\/gui\/home\/logos.jpg",
+		"outputAbbreviatedPath": "\/public\/assets\/images\/gui\/home\/logos.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/public\/assets\/images\/gui\/home\/nueva_logo.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 14789,
+		"inputAbbreviatedPath": "\/public\/assets\/images\/gui\/home\/nueva_logo.png",
+		"outputAbbreviatedPath": "\/public\/assets\/images\/gui\/home\/nueva_logo.png",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
@@ -363,6 +429,28 @@
 		"initialSize": 1443,
 		"inputAbbreviatedPath": "\/public\/assets\/images\/gui\/home\/yt_share.png",
 		"outputAbbreviatedPath": "\/public\/assets\/images\/gui\/home\/yt_share.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/public\/assets\/images\/gui\/municipio\/sub_sitios.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 3223,
+		"inputAbbreviatedPath": "\/public\/assets\/images\/gui\/municipio\/sub_sitios.png",
+		"outputAbbreviatedPath": "\/public\/assets\/images\/gui\/municipio\/sub_sitios.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/public\/assets\/images\/gui\/municipio\/sub_trans.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 3301,
+		"inputAbbreviatedPath": "\/public\/assets\/images\/gui\/municipio\/sub_trans.png",
+		"outputAbbreviatedPath": "\/public\/assets\/images\/gui\/municipio\/sub_trans.png",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0

@@ -68,7 +68,10 @@ nav {
       height: 92px;
       position: relative;
       margin: 0 auto;
-      margin-top: 25px; }
+      margin-top: 25px;
+      display: none; }
+      nav .underNav .innerSub#comunicacion-top_sub, nav .underNav .innerSub#municipios-top_sub {
+        width: 310px; }
       nav .underNav .innerSub .btns_sub {
         width: 150px;
         height: 100%;
@@ -88,6 +91,14 @@ nav {
             background-image: url("../assets/images/gui/home/sub_direct.png"); }
           nav .underNav .innerSub .btns_sub .imgInner#organigrama-img {
             background-image: url("../assets/images/gui/home/sub_organi.png"); }
+          nav .underNav .innerSub .btns_sub .imgInner#noticias-img {
+            background-image: url("../assets/images/gui/comunicacion/sub_noti.png"); }
+          nav .underNav .innerSub .btns_sub .imgInner#galeria-img {
+            background-image: url("../assets/images/gui/comunicacion/sub_gal.png"); }
+          nav .underNav .innerSub .btns_sub .imgInner#sitios_de_interes-img {
+            background-image: url("../assets/images/gui/municipio/sub_sitios.png"); }
+          nav .underNav .innerSub .btns_sub .imgInner#transparencia-img {
+            background-image: url("../assets/images/gui/municipio/sub_trans.png"); }
         nav .underNav .innerSub .btns_sub p {
           font-weight: bold;
           text-align: center; }
@@ -101,7 +112,22 @@ nav {
 .top_cover {
   width: 100%;
   height: 440px;
-  position: relative; }
+  position: relative;
+  background-color: #ffffff; }
+  .top_cover img {
+    width: 100%;
+    position: relative; }
+  .top_cover .holdLogos {
+    width: 100%;
+    height: 80px;
+    position: relative; }
+    .top_cover .holdLogos .inLogo {
+      width: 50%;
+      height: 100%;
+      position: relative;
+      float: left;
+      background-repeat: no-repeat;
+      background-position: center; }
 
 .intro {
   width: 960px;
@@ -376,7 +402,9 @@ section {
         width: 30px;
         height: 85px;
         position: relative;
-        float: left; }
+        float: left;
+        background-repeat: no-repeat;
+        background-position: center; }
         #wrapper .redTag .holdinfo .braket.bleft {
           background-image: url("../assets/images/gui/home/bl.png"); }
         #wrapper .redTag .holdinfo .braket.bright {
