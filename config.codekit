@@ -82,6 +82,22 @@
 		"shouldRunBless": 0,
 		"useLibsass": false
 		},
+	"\/development\/sass\/_nosotros.sass": {
+		"createSourceMap": 0,
+		"debugStyle": 0,
+		"decimalPrecision": 5,
+		"fileType": 2,
+		"ignore": 1,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/development\/sass\/_nosotros.sass",
+		"outputAbbreviatedPath": "\/development\/css\/_nosotros.css",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 0,
+		"shouldRunAutoprefixer": 0,
+		"shouldRunBless": 0,
+		"useLibsass": false
+		},
 	"\/development\/sass\/_vars.sass": {
 		"createSourceMap": 0,
 		"debugStyle": 0,
@@ -222,6 +238,28 @@
 		"outputAbbreviatedPath": "\/development\/views\/includes\/home\/_home.html",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
+		"outputStyle": 0
+		},
+	"\/development\/views\/includes\/nosotros\/quienes_somos\/_home.jade": {
+		"compileDebug": 1,
+		"fileType": 512,
+		"ignore": 1,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/development\/views\/includes\/nosotros\/quienes_somos\/_home.jade",
+		"outputAbbreviatedPath": "\/development\/views\/includes\/nosotros\/quienes_somos\/_home.html",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 0
+		},
+	"\/development\/views\/includes\/nosotros\/quienes_somos\/index.jade": {
+		"compileDebug": 1,
+		"fileType": 512,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/development\/views\/includes\/nosotros\/quienes_somos\/index.jade",
+		"outputAbbreviatedPath": "\/public\/quienes_somos\/index.html",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 1,
 		"outputStyle": 0
 		},
 	"\/development\/views\/index.jade": {
@@ -455,11 +493,62 @@
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
+	"\/public\/assets\/images\/gui\/quienes_somos\/mision.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 1570,
+		"inputAbbreviatedPath": "\/public\/assets\/images\/gui\/quienes_somos\/mision.png",
+		"outputAbbreviatedPath": "\/public\/assets\/images\/gui\/quienes_somos\/mision.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/public\/assets\/images\/gui\/quienes_somos\/objetivo.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 1418,
+		"inputAbbreviatedPath": "\/public\/assets\/images\/gui\/quienes_somos\/objetivo.png",
+		"outputAbbreviatedPath": "\/public\/assets\/images\/gui\/quienes_somos\/objetivo.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/public\/assets\/images\/gui\/quienes_somos\/vision.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 1614,
+		"inputAbbreviatedPath": "\/public\/assets\/images\/gui\/quienes_somos\/vision.png",
+		"outputAbbreviatedPath": "\/public\/assets\/images\/gui\/quienes_somos\/vision.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
 	"\/public\/css\/main.css": {
 		"fileType": 16,
 		"ignore": 1,
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/public\/css\/main.css",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/public\/index.html": {
+		"fileType": 8192,
+		"ignore": 1,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/public\/index.html",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/public\/nosotros\/quienes_somos.html": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/public\/nosotros\/quienes_somos.html",
 		"outputAbbreviatedPath": "No Output Path",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
