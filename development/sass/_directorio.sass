@@ -1,0 +1,130 @@
+.directorio_somos
+	width: 100%
+	height: auto
+	position: relative
+	.subNav
+		width: 100%
+		height: 40px
+		background-color: $gris
+		position: relative
+		margin-top: -12px
+		margin-bottom: 40px
+		ul 
+			width: 760px
+			height: 25px
+			position: relative
+			top: 7px
+			margin-left: 190px
+			.yes-act
+				li
+					color: $rojo
+
+			li 	
+				width: 100px
+				float: left
+				text-align: center
+				line-height: 13px
+				margin-right: 10px
+				margin-left: 10px
+				&:hover
+					color: $rojo
+			#general-dir, #tecnica-dir
+				li 
+					width: 70px
+			#juridica-dir
+				li 
+					width: 110px
+			#coordinacion-dir
+				li 
+					width: 190px
+				
+	h1 
+		text-align: center
+		margin-bottom: 20px
+		width: 100%
+	h3 
+		text-align: center
+		margin-bottom: 25px
+	.holdDirectorio
+		width: 960px
+		height: 700px
+		position: relative
+		background-color: $blanco
+		.holdIntegrante
+			width: 220px
+			height: 330px
+			padding: 10px
+			position: relative
+			float: left
+			cursor: pointer
+			overflow: hidden
+			.holdBotu
+				width: 100%
+				height: 100%
+				position: absolute
+				top: 10px
+				left: 10px
+				.mainPic, .backInfo
+					width: 100%
+					height: 100%
+					position: absolute
+					top: 0
+					left: 0
+					overflow: hidden
+					img 
+						height: 100%
+						position: absolute
+						top: 0
+				.backInfo
+					background-color: $rojo-oscuro
+					color: $font-blanco !important
+					opacity: 1
+					left: 100%
+					.name, .title, .btm_info
+						width: 180px
+						margin: 0 auto
+						h4, p 
+							color: $font-blanco
+						h4 
+							margin-bottom: 15px
+						p 
+							font-size: 13px
+							margin-bottom: 90px
+							font-style: italic
+						.icon_hold
+							height: 32px
+							width: 100%
+							position: relative
+							margin-bottom: 10px
+							.icon
+								width: 32px
+								height: 32px
+								float: left
+								background-color: $blanco
+								+border-radius(50%)
+								margin-right: 20px
+								background-position: center
+								background-repeat: no-repeat
+								&#num-dir
+									background-image: url("../assets/images/gui/quienes_somos/directorio/ext-icon.png")
+								&#mail-dir
+									background-image: url("../assets/images/gui/quienes_somos/directorio/correo-icon.png")
+								&#mas-dir
+									background-image: url("../assets/images/gui/quienes_somos/directorio/mas-icon.png")
+									background-color: $rojo
+	
+							p 
+								position: relative
+								margin-bottom: 0
+								top: 11px
+								font-size: 13px
+								font-style: normal
+								float: left
+
+
+
+
+
+
+
+

@@ -1,6 +1,11 @@
 mixin btn_list(params)
-	a(href="/#{params.link}", class="#{params.subMenu}-sub" id="#{params.link}-top")
+	a(href="/#{params.link}", class="#{params.subMenu}-sub", id="#{params.link}-top")
 		li= params.name
+mixin btn_list2(params)
+	a(href="#", class="direList #{params.active}-act", id="#{params.link}-dir")
+		li
+			|#{params.name}
+			|#{params.name2}
 mixin btn_sub(params)
 	a(href="/#{params.link}")
 		.btns_sub(id="#{params.link}-sub")
@@ -20,3 +25,26 @@ mixin img_box(params)
 			.hover_img(id="#{params.elId}-img-hover")
 				.btn_plac.center-all.btn-borders
 					p= params.infoBtn
+
+mixin directory_crew(params)
+	.holdIntegrante(id="dir_#{params.laId}")
+		.holdBotu
+			.mainPic
+				img(src="/assets/images/gui/quienes_somos/directorio/#{params.nameImg}.jpg")
+			.backInfo(id="dir_#{params.laId}-red")
+				.name
+					h4= params.name
+				.title
+					p= params.title
+				.btm_info
+					.extencion.icon_hold
+						.icon#num-dir
+						p=params.numero
+					a(href="mailto:#{params.correo}")
+						.correo.icon_hold
+							.icon#mail-dir
+							p Enviar correo
+					a(href="#")
+						.vermas.icon_hold
+							.icon#mas-dir
+							p Ver más datos

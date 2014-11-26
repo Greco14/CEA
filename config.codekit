@@ -2,6 +2,22 @@
 "CodeKitInfo": "This is a CodeKit 2.x project configuration file. It is designed to sync project settings across multiple machines. MODIFYING THE CONTENTS OF THIS FILE IS A POOR LIFE DECISION. If you do so, you will likely cause CodeKit to crash. This file is not useful unless accompanied by the project that created it in CodeKit 2. This file is not backwards-compatible with CodeKit 1.x. For more information, see: http:\/\/incident57.com\/codekit",
 "creatorBuild": "18270",
 "files": {
+	"\/development\/sass\/_directorio.sass": {
+		"createSourceMap": 0,
+		"debugStyle": 0,
+		"decimalPrecision": 5,
+		"fileType": 2,
+		"ignore": 1,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/development\/sass\/_directorio.sass",
+		"outputAbbreviatedPath": "\/development\/css\/_directorio.css",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 0,
+		"shouldRunAutoprefixer": 0,
+		"shouldRunBless": 0,
+		"useLibsass": false
+		},
 	"\/development\/sass\/_fonts.sass": {
 		"createSourceMap": 0,
 		"debugStyle": 0,
@@ -130,6 +146,17 @@
 		"shouldRunBless": 0,
 		"useLibsass": false
 		},
+	"\/development\/scripts\/gui\/_directorio.js": {
+		"fileType": 64,
+		"ignore": 1,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/development\/scripts\/gui\/_directorio.js",
+		"outputAbbreviatedPath": "\/development\/scripts\/gui\/min\/_directorio-min.js",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 1,
+		"syntaxCheckerStyle": 1
+		},
 	"\/development\/scripts\/gui\/_hover_gal.js": {
 		"fileType": 64,
 		"ignore": 1,
@@ -240,6 +267,28 @@
 		"outputPathIsSetByUser": 0,
 		"outputStyle": 0
 		},
+	"\/development\/views\/includes\/nosotros\/directorio\/_home.jade": {
+		"compileDebug": 1,
+		"fileType": 512,
+		"ignore": 1,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/development\/views\/includes\/nosotros\/directorio\/_home.jade",
+		"outputAbbreviatedPath": "\/development\/views\/includes\/nosotros\/directorio\/_home.html",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 0
+		},
+	"\/development\/views\/includes\/nosotros\/directorio\/index.jade": {
+		"compileDebug": 1,
+		"fileType": 512,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/development\/views\/includes\/nosotros\/directorio\/index.jade",
+		"outputAbbreviatedPath": "\/public\/directorio\/index.html",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 1,
+		"outputStyle": 0
+		},
 	"\/development\/views\/includes\/nosotros\/quienes_somos\/_home.jade": {
 		"compileDebug": 1,
 		"fileType": 512,
@@ -258,6 +307,28 @@
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/development\/views\/includes\/nosotros\/quienes_somos\/index.jade",
 		"outputAbbreviatedPath": "\/public\/quienes_somos\/index.html",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 1,
+		"outputStyle": 0
+		},
+	"\/development\/views\/includes\/servicios\/_home.jade": {
+		"compileDebug": 1,
+		"fileType": 512,
+		"ignore": 1,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/development\/views\/includes\/servicios\/_home.jade",
+		"outputAbbreviatedPath": "\/development\/views\/includes\/servicios\/_home.html",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 0
+		},
+	"\/development\/views\/includes\/servicios\/index.jade": {
+		"compileDebug": 1,
+		"fileType": 512,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/development\/views\/includes\/servicios\/index.jade",
+		"outputAbbreviatedPath": "\/public\/servicios\/index.html",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 1,
 		"outputStyle": 0
@@ -493,6 +564,61 @@
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
+	"\/public\/assets\/images\/gui\/quienes_somos\/directorio\/chica1.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 72278,
+		"inputAbbreviatedPath": "\/public\/assets\/images\/gui\/quienes_somos\/directorio\/chica1.jpg",
+		"outputAbbreviatedPath": "\/public\/assets\/images\/gui\/quienes_somos\/directorio\/chica1.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/public\/assets\/images\/gui\/quienes_somos\/directorio\/chico2.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 58072,
+		"inputAbbreviatedPath": "\/public\/assets\/images\/gui\/quienes_somos\/directorio\/chico2.jpg",
+		"outputAbbreviatedPath": "\/public\/assets\/images\/gui\/quienes_somos\/directorio\/chico2.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/public\/assets\/images\/gui\/quienes_somos\/directorio\/correo-icon.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 1298,
+		"inputAbbreviatedPath": "\/public\/assets\/images\/gui\/quienes_somos\/directorio\/correo-icon.png",
+		"outputAbbreviatedPath": "\/public\/assets\/images\/gui\/quienes_somos\/directorio\/correo-icon.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/public\/assets\/images\/gui\/quienes_somos\/directorio\/ext-icon.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 1181,
+		"inputAbbreviatedPath": "\/public\/assets\/images\/gui\/quienes_somos\/directorio\/ext-icon.png",
+		"outputAbbreviatedPath": "\/public\/assets\/images\/gui\/quienes_somos\/directorio\/ext-icon.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/public\/assets\/images\/gui\/quienes_somos\/directorio\/mas-icon.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 1047,
+		"inputAbbreviatedPath": "\/public\/assets\/images\/gui\/quienes_somos\/directorio\/mas-icon.png",
+		"outputAbbreviatedPath": "\/public\/assets\/images\/gui\/quienes_somos\/directorio\/mas-icon.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
 	"\/public\/assets\/images\/gui\/quienes_somos\/mision.png": {
 		"fileType": 32768,
 		"ignore": 0,
@@ -531,15 +657,6 @@
 		"ignore": 1,
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/public\/css\/main.css",
-		"outputAbbreviatedPath": "No Output Path",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0
-		},
-	"\/public\/index.html": {
-		"fileType": 8192,
-		"ignore": 1,
-		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/public\/index.html",
 		"outputAbbreviatedPath": "No Output Path",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0

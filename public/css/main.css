@@ -292,6 +292,164 @@ nav {
         .quines_somos .titleSect .holdMids .colstxt span {
           font-weight: 700;
           color: #1d1d1d; }
+  .quines_somos .redTag {
+    height: 85px !important;
+    padding-top: 5px !important; }
+    .quines_somos .redTag .holdinfo {
+      width: 560px !important; }
+    .quines_somos .redTag p {
+      width: 460px !important;
+      font-size: 22px;
+      margin-top: 25px !important; }
+  .quines_somos .holdlowSect {
+    height: 350px; }
+    .quines_somos .holdlowSect .icono_sect {
+      width: 100%;
+      height: 130px;
+      position: relative;
+      padding-top: 40px; }
+      .quines_somos .holdlowSect .icono_sect .circle {
+        width: 80px;
+        height: 80px;
+        position: relative;
+        background-color: #e73541;
+        -webkit-border-radius: 50%;
+        -moz-border-radius: 50%;
+        border-radius: 50%;
+        margin: 0 auto;
+        background-repeat: no-repeat;
+        background-position: center; }
+        .quines_somos .holdlowSect .icono_sect .circle#mision {
+          background-image: url("../assets/images/gui/quienes_somos/mision.png"); }
+        .quines_somos .holdlowSect .icono_sect .circle#vision {
+          background-image: url("../assets/images/gui/quienes_somos/vision.png"); }
+        .quines_somos .holdlowSect .icono_sect .circle#objetivo {
+          background-image: url("../assets/images/gui/quienes_somos/objetivo.png"); }
+      .quines_somos .holdlowSect .icono_sect h3 {
+        margin-top: 15px;
+        text-align: center; }
+    .quines_somos .holdlowSect .info {
+      width: 90%;
+      margin: 0 auto;
+      text-align: center; }
+
+.directorio_somos {
+  width: 100%;
+  height: auto;
+  position: relative; }
+  .directorio_somos .subNav {
+    width: 100%;
+    height: 40px;
+    background-color: #d2d2d2;
+    position: relative;
+    margin-top: -12px;
+    margin-bottom: 40px; }
+    .directorio_somos .subNav ul {
+      width: 760px;
+      height: 25px;
+      position: relative;
+      top: 7px;
+      margin-left: 190px; }
+      .directorio_somos .subNav ul .yes-act li {
+        color: #e73541; }
+      .directorio_somos .subNav ul li {
+        width: 100px;
+        float: left;
+        text-align: center;
+        line-height: 13px;
+        margin-right: 10px;
+        margin-left: 10px; }
+        .directorio_somos .subNav ul li:hover {
+          color: #e73541; }
+      .directorio_somos .subNav ul #general-dir li, .directorio_somos .subNav ul #tecnica-dir li {
+        width: 70px; }
+      .directorio_somos .subNav ul #juridica-dir li {
+        width: 110px; }
+      .directorio_somos .subNav ul #coordinacion-dir li {
+        width: 190px; }
+  .directorio_somos h1 {
+    text-align: center;
+    margin-bottom: 20px;
+    width: 100%; }
+  .directorio_somos h3 {
+    text-align: center;
+    margin-bottom: 25px; }
+  .directorio_somos .holdDirectorio {
+    width: 960px;
+    height: 700px;
+    position: relative;
+    background-color: #ffffff; }
+    .directorio_somos .holdDirectorio .holdIntegrante {
+      width: 220px;
+      height: 330px;
+      padding: 10px;
+      position: relative;
+      float: left;
+      cursor: pointer;
+      overflow: hidden; }
+      .directorio_somos .holdDirectorio .holdIntegrante .holdBotu {
+        width: 100%;
+        height: 100%;
+        position: absolute;
+        top: 10px;
+        left: 10px; }
+        .directorio_somos .holdDirectorio .holdIntegrante .holdBotu .mainPic, .directorio_somos .holdDirectorio .holdIntegrante .holdBotu .backInfo {
+          width: 100%;
+          height: 100%;
+          position: absolute;
+          top: 0;
+          left: 0;
+          overflow: hidden; }
+          .directorio_somos .holdDirectorio .holdIntegrante .holdBotu .mainPic img, .directorio_somos .holdDirectorio .holdIntegrante .holdBotu .backInfo img {
+            height: 100%;
+            position: absolute;
+            top: 0; }
+        .directorio_somos .holdDirectorio .holdIntegrante .holdBotu .backInfo {
+          background-color: #a8232c;
+          color: #f0f0f2 !important;
+          opacity: 1;
+          left: 100%; }
+          .directorio_somos .holdDirectorio .holdIntegrante .holdBotu .backInfo .name, .directorio_somos .holdDirectorio .holdIntegrante .holdBotu .backInfo .title, .directorio_somos .holdDirectorio .holdIntegrante .holdBotu .backInfo .btm_info {
+            width: 180px;
+            margin: 0 auto; }
+            .directorio_somos .holdDirectorio .holdIntegrante .holdBotu .backInfo .name h4, .directorio_somos .holdDirectorio .holdIntegrante .holdBotu .backInfo .name p, .directorio_somos .holdDirectorio .holdIntegrante .holdBotu .backInfo .title h4, .directorio_somos .holdDirectorio .holdIntegrante .holdBotu .backInfo .title p, .directorio_somos .holdDirectorio .holdIntegrante .holdBotu .backInfo .btm_info h4, .directorio_somos .holdDirectorio .holdIntegrante .holdBotu .backInfo .btm_info p {
+              color: #f0f0f2; }
+            .directorio_somos .holdDirectorio .holdIntegrante .holdBotu .backInfo .name h4, .directorio_somos .holdDirectorio .holdIntegrante .holdBotu .backInfo .title h4, .directorio_somos .holdDirectorio .holdIntegrante .holdBotu .backInfo .btm_info h4 {
+              margin-bottom: 15px; }
+            .directorio_somos .holdDirectorio .holdIntegrante .holdBotu .backInfo .name p, .directorio_somos .holdDirectorio .holdIntegrante .holdBotu .backInfo .title p, .directorio_somos .holdDirectorio .holdIntegrante .holdBotu .backInfo .btm_info p {
+              font-size: 13px;
+              margin-bottom: 90px;
+              font-style: italic; }
+            .directorio_somos .holdDirectorio .holdIntegrante .holdBotu .backInfo .name .icon_hold, .directorio_somos .holdDirectorio .holdIntegrante .holdBotu .backInfo .title .icon_hold, .directorio_somos .holdDirectorio .holdIntegrante .holdBotu .backInfo .btm_info .icon_hold {
+              height: 32px;
+              width: 100%;
+              position: relative;
+              margin-bottom: 10px; }
+              .directorio_somos .holdDirectorio .holdIntegrante .holdBotu .backInfo .name .icon_hold .icon, .directorio_somos .holdDirectorio .holdIntegrante .holdBotu .backInfo .title .icon_hold .icon, .directorio_somos .holdDirectorio .holdIntegrante .holdBotu .backInfo .btm_info .icon_hold .icon {
+                width: 32px;
+                height: 32px;
+                float: left;
+                background-color: #ffffff;
+                -webkit-border-radius: 50%;
+                -moz-border-radius: 50%;
+                border-radius: 50%;
+                margin-right: 20px;
+                background-position: center;
+                background-repeat: no-repeat; }
+                .directorio_somos .holdDirectorio .holdIntegrante .holdBotu .backInfo .name .icon_hold .icon#num-dir, .directorio_somos .holdDirectorio .holdIntegrante .holdBotu .backInfo .title .icon_hold .icon#num-dir, .directorio_somos .holdDirectorio .holdIntegrante .holdBotu .backInfo .btm_info .icon_hold .icon#num-dir {
+                  background-image: url("../assets/images/gui/quienes_somos/directorio/ext-icon.png"); }
+                .directorio_somos .holdDirectorio .holdIntegrante .holdBotu .backInfo .name .icon_hold .icon#mail-dir, .directorio_somos .holdDirectorio .holdIntegrante .holdBotu .backInfo .title .icon_hold .icon#mail-dir, .directorio_somos .holdDirectorio .holdIntegrante .holdBotu .backInfo .btm_info .icon_hold .icon#mail-dir {
+                  background-image: url("../assets/images/gui/quienes_somos/directorio/correo-icon.png"); }
+                .directorio_somos .holdDirectorio .holdIntegrante .holdBotu .backInfo .name .icon_hold .icon#mas-dir, .directorio_somos .holdDirectorio .holdIntegrante .holdBotu .backInfo .title .icon_hold .icon#mas-dir, .directorio_somos .holdDirectorio .holdIntegrante .holdBotu .backInfo .btm_info .icon_hold .icon#mas-dir {
+                  background-image: url("../assets/images/gui/quienes_somos/directorio/mas-icon.png");
+                  background-color: #e73541; }
+              .directorio_somos .holdDirectorio .holdIntegrante .holdBotu .backInfo .name .icon_hold p, .directorio_somos .holdDirectorio .holdIntegrante .holdBotu .backInfo .title .icon_hold p, .directorio_somos .holdDirectorio .holdIntegrante .holdBotu .backInfo .btm_info .icon_hold p {
+                position: relative;
+                margin-bottom: 0;
+                top: 11px;
+                font-size: 13px;
+                font-style: normal;
+                float: left; }
 
 footer {
   width: 100%;
