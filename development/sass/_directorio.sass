@@ -1,6 +1,7 @@
-.directorio_somos
+.directorio_somos, .inSections
 	width: 100%
 	height: auto
+	padding-bottom: 20px
 	position: relative
 	.subNav
 		width: 100%
@@ -47,8 +48,9 @@
 		margin-bottom: 25px
 	.holdDirectorio
 		width: 960px
-		height: 700px
+		height: 720px
 		position: relative
+		margin: 0 auto
 		background-color: $blanco
 		.holdIntegrante
 			width: 220px
@@ -120,6 +122,100 @@
 								font-size: 13px
 								font-style: normal
 								float: left
+	.containerPopUp
+		width: 100%
+		height: 100%
+		position: absolute
+		top: 0
+		lef: 0
+		background-color: rgba(174,174,174, 0.5)
+		display: none
+		.holdInfo
+			width: 880px
+			height: 630px
+			padding: 30px
+			background-color: $gris
+			top: 100px
+			.holdTopinfo
+				width: 100%
+				height: 320px
+				position: relative
+				img 
+					height: 100%
+					position: relative
+					float: left
+					margin-right: 50px
+				.close
+					width: 30px
+					height: 32px
+					position: absolute
+					top: 0
+					right: 0
+					+border-radius(50%)
+					background-color: $blanco
+					background-image: url("../assets/images/gui/quienes_somos/directorio/close.png")
+					background-position: center
+					background-repeat: no-repeat
+					cursor: pointer
+				.holdInfo2
+					width: 610px
+					height: 290px
+					float: left
+					padding-top: 35px
+					position: relative
+					margin-bottom: 30px
+					h3,h4
+						text-align: left
+					h3
+						color: $rojo
+						font-weight: 700
+					h4
+						color: $font-blanco
+						font-style: italica
+					.col
+						p
+							margin-bottom: 25px
+							color: $font-negro
+							span 
+								font-weight: 700
+								color: $font-negro
+			.lowInfo
+				width: 100%
+				h3
+					color: $rojo
+					margin-bottom: 15px
+				ul 
+					float: left
+					width: 45%
+					padding-left: 2.5%
+					li:before
+						content: '•'
+						font-style: 30px
+						font-weight: 700
+					li
+						padding-left: 10px
+				.holdNavs
+					width: 40px
+					height: 17px
+					position: absolute
+					bottom: 30px
+					right: 30px
+					.btns
+						width: 50%
+						height: 100%
+						position: relative
+						float: left
+						background-repeat: no-repeat
+						cursor: pointer
+
+					.back
+						background-image: url("../assets/images/gui/quienes_somos/directorio/back.png")
+						background-position: left
+					.next
+						background-image: url("../assets/images/gui/quienes_somos/directorio/next.png")
+						background-position: right
+
+
 
 
 

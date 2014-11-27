@@ -114,6 +114,22 @@
 		"shouldRunBless": 0,
 		"useLibsass": false
 		},
+	"\/development\/sass\/_organigrama.sass": {
+		"createSourceMap": 0,
+		"debugStyle": 0,
+		"decimalPrecision": 5,
+		"fileType": 2,
+		"ignore": 1,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/development\/sass\/_organigrama.sass",
+		"outputAbbreviatedPath": "\/development\/css\/_organigrama.css",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 0,
+		"shouldRunAutoprefixer": 0,
+		"shouldRunBless": 0,
+		"useLibsass": false
+		},
 	"\/development\/sass\/_vars.sass": {
 		"createSourceMap": 0,
 		"debugStyle": 0,
@@ -285,6 +301,28 @@
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/development\/views\/includes\/nosotros\/directorio\/index.jade",
 		"outputAbbreviatedPath": "\/public\/directorio\/index.html",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 1,
+		"outputStyle": 0
+		},
+	"\/development\/views\/includes\/nosotros\/organigrama\/_home.jade": {
+		"compileDebug": 1,
+		"fileType": 512,
+		"ignore": 1,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/development\/views\/includes\/nosotros\/organigrama\/_home.jade",
+		"outputAbbreviatedPath": "\/development\/views\/includes\/nosotros\/organigrama\/_home.html",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 0
+		},
+	"\/development\/views\/includes\/nosotros\/organigrama\/index.jade": {
+		"compileDebug": 1,
+		"fileType": 512,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/development\/views\/includes\/nosotros\/organigrama\/index.jade",
+		"outputAbbreviatedPath": "\/public\/organigrama\/index.html",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 1,
 		"outputStyle": 0
@@ -564,6 +602,17 @@
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
+	"\/public\/assets\/images\/gui\/quienes_somos\/directorio\/back.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 1127,
+		"inputAbbreviatedPath": "\/public\/assets\/images\/gui\/quienes_somos\/directorio\/back.png",
+		"outputAbbreviatedPath": "\/public\/assets\/images\/gui\/quienes_somos\/directorio\/back.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
 	"\/public\/assets\/images\/gui\/quienes_somos\/directorio\/chica1.jpg": {
 		"fileType": 16384,
 		"ignore": 0,
@@ -582,6 +631,17 @@
 		"initialSize": 58072,
 		"inputAbbreviatedPath": "\/public\/assets\/images\/gui\/quienes_somos\/directorio\/chico2.jpg",
 		"outputAbbreviatedPath": "\/public\/assets\/images\/gui\/quienes_somos\/directorio\/chico2.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/public\/assets\/images\/gui\/quienes_somos\/directorio\/close.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 1139,
+		"inputAbbreviatedPath": "\/public\/assets\/images\/gui\/quienes_somos\/directorio\/close.png",
+		"outputAbbreviatedPath": "\/public\/assets\/images\/gui\/quienes_somos\/directorio\/close.png",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
@@ -615,6 +675,17 @@
 		"initialSize": 1047,
 		"inputAbbreviatedPath": "\/public\/assets\/images\/gui\/quienes_somos\/directorio\/mas-icon.png",
 		"outputAbbreviatedPath": "\/public\/assets\/images\/gui\/quienes_somos\/directorio\/mas-icon.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/public\/assets\/images\/gui\/quienes_somos\/directorio\/next.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 1130,
+		"inputAbbreviatedPath": "\/public\/assets\/images\/gui\/quienes_somos\/directorio\/next.png",
+		"outputAbbreviatedPath": "\/public\/assets\/images\/gui\/quienes_somos\/directorio\/next.png",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
@@ -661,11 +732,38 @@
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
 		},
+	"\/public\/index.html": {
+		"fileType": 8192,
+		"ignore": 1,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/public\/index.html",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
 	"\/public\/nosotros\/quienes_somos.html": {
 		"fileType": 8192,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/public\/nosotros\/quienes_somos.html",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/public\/organigrama\/index.html": {
+		"fileType": 8192,
+		"ignore": 1,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/public\/organigrama\/index.html",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/public\/quienes_somos\/index.html": {
+		"fileType": 8192,
+		"ignore": 1,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/public\/quienes_somos\/index.html",
 		"outputAbbreviatedPath": "No Output Path",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
@@ -735,6 +833,15 @@
 		"outputPathIsSetByUser": 0,
 		"outputStyle": 1,
 		"syntaxCheckerStyle": 1
+		},
+	"\/public\/servicios\/index.html": {
+		"fileType": 8192,
+		"ignore": 1,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/public\/servicios\/index.html",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
 		}
 	},
 "hooks": [

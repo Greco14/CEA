@@ -19,11 +19,17 @@ Directorio.prototype.bind= function(){
 		s = self.settings;
 		s.card.mouseenter(function(){
 			var laId = $(this).attr('id');
-			self.animation('show-info', laId);
+			// self.animation('show-info', laId);
+			$('#'+laId+'-red').stop().animate({
+				left: 0,
+			}, 250, 'easeInOutQuad');
 		});
 		s.card.mouseleave(function(){
 			var laId = $(this).attr('id');
-			self.animation('hide-info', laId);
+			// self.animation('hide-info', laId);
+			$('#'+laId+'-red').stop().animate({
+				left: '100%',
+			}, 250, 'easeInOutQuad');
 		});
 };
 Directorio.prototype.animation= function(actions, laId){
