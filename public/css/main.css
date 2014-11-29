@@ -560,6 +560,23 @@ nav {
     .organigrama_somos .holdImg_organi img {
       width: 100%; }
 
+.noticias_comunicacion {
+  height: 1300px;
+  padding-top: 40px; }
+  .noticias_comunicacion .holdNotes {
+    width: 100%;
+    height: 1200px;
+    position: relative; }
+    .noticias_comunicacion .holdNotes .section-half, .noticias_comunicacion .holdNotes .section-third {
+      height: 400px;
+      margin-bottom: 20px; }
+    .noticias_comunicacion .holdNotes .section-half .noticiasInfo {
+      width: 100%; }
+      .noticias_comunicacion .holdNotes .section-half .noticiasInfo .infoIn {
+        height: 60px; }
+        .noticias_comunicacion .holdNotes .section-half .noticiasInfo .infoIn p {
+          font-size: 24px; }
+
 footer {
   width: 100%;
   height: 50px;
