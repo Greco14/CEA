@@ -4,11 +4,17 @@ Directorio = function(){
 		card: $('.holdIntegrante'),
 		main_img: $('.mainPic'),
 		backInfo: $('.backInfo'),
+		pop_up: $('.containerPopUp'),
+		closePop: $('.closePop'),
+		hover_img: $('.hover_img'),
+		vermas: $('.vermas'),
 
 
 	};
 	this.tlShowinfo = new TimelineLite();
 	this.tlHiddeinfo = new TimelineLite();
+	this.tlopenPopup = new TimelineLite();
+	this.tlclosePopup = new TimelineLite();
 };
 Directorio.prototype.init= function(){
 	var self= this;
@@ -31,6 +37,16 @@ Directorio.prototype.bind= function(){
 				left: '100%',
 			}, 250, 'easeInOutQuad');
 		});
+		s.vermas.on('click', function(){
+			self.animation('open-pop');
+		});
+		s.hover_img.on('click', function(){
+			self.animation('open-pop');
+		});
+		s.closePop.on('click', function(){
+			self.animation('close-pop')
+		});
+
 };
 Directorio.prototype.animation= function(actions, laId){
 	var self= this,
@@ -65,5 +81,22 @@ Directorio.prototype.animation= function(actions, laId){
 				});
 					
 				break;
+			case 'open-pop':
+				s.pop_up.css({opacity: 0, display: 'block'});
+				self.tlopenPopup.to(s.pop_up, 0.75,{
+					opacity: 1,
+					ease: Cubic.easeOut
+				});
+
+				break;
+			case 'close-pop':
+				self.tlclosePopup.to(s.pop_up, 0.75,{
+					opacity: 0,
+					ease: Cubic.easeOut,
+					onComplete : function (){
+						s.pop_up.css({display: 'none'});
+					}
+				});
+			break;
 		};
 };

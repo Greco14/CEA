@@ -1,3 +1,20 @@
+.big_img
+	width: 1000px
+	height: 360px
+	position: relative
+	background-color: $blanco
+	.in
+		width: 990px
+		height: 350px
+		position: absolute
+		top: 5px
+		left: 5px
+		overflow: hidden
+		img 
+			width: 100%
+			position: absolute
+			top: 0
+			left: 0
 .medio_img
 	width: 450px
 	height: 300px
@@ -32,7 +49,7 @@
 			position: absolute
 			top: 0
 			left: 0
-.medio_img, .tercio_img 
+.medio_img, .tercio_img, .big_img
 	.in
 		.hover_img
 			width: 100%
@@ -62,7 +79,7 @@
 		height: 55px
 		width: 100%
 		position: relative
-.noticiasInfo
+.noticiasInfo, .noticiasInfoFull
 	width: 300px
 	height: 360px
 	.infoIn
@@ -104,7 +121,10 @@
 				margin: 0 auto
 				margin-top: 7px
 				font-weight: 700
-
+.noticiasInfoFull
+	width: 980px
+	height: 450px
+	position: relative
 
 
 

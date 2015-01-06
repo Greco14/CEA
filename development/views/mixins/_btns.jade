@@ -21,7 +21,7 @@ mixin cuote(params)
 mixin img_box(params)
 	.shodowiT.imgs_hovers(class="#{params.type}_img" id="#{params.elId}-img")
 		.in
-			img(src="assets/images/gui/#{params.locate}/#{params.name}.jpg")
+			img(src="http://www.ceascoahuila.gob.mx/qa/assets/images/gui/#{params.locate}/#{params.name}.jpg")
 			.hover_img(id="#{params.elId}-img-hover")
 				.btn_plac.center-all.btn-borders
 					p= params.infoBtn
@@ -30,7 +30,7 @@ mixin directory_crew(params)
 	.holdIntegrante(id="dir_#{params.laId}")
 		.holdBotu
 			.mainPic
-				img(src="/assets/images/gui/quienes_somos/directorio/#{params.nameImg}.jpg")
+				img(src="http://www.ceascoahuila.gob.mx/qa/assets/images/gui/quienes_somos/directorio/#{params.nameImg}.jpg")
 			.backInfo(id="dir_#{params.laId}-red")
 				.name
 					h4= params.name

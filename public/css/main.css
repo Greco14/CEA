@@ -160,6 +160,24 @@ nav {
 .more-home {
   height: 440px; }
 
+.big_img {
+  width: 1000px;
+  height: 360px;
+  position: relative;
+  background-color: #ffffff; }
+  .big_img .in {
+    width: 990px;
+    height: 350px;
+    position: absolute;
+    top: 5px;
+    left: 5px;
+    overflow: hidden; }
+    .big_img .in img {
+      width: 100%;
+      position: absolute;
+      top: 0;
+      left: 0; }
+
 .medio_img {
   width: 450px;
   height: 300px;
@@ -196,7 +214,7 @@ nav {
       top: 0;
       left: 0; }
 
-.medio_img .in .hover_img, .tercio_img .in .hover_img {
+.medio_img .in .hover_img, .tercio_img .in .hover_img, .big_img .in .hover_img {
   width: 100%;
   height: 100%;
   background-color: rgba(0, 0, 0, 0.4);
@@ -204,11 +222,11 @@ nav {
   top: 0;
   left: 0;
   opacity: 0; }
-  .medio_img .in .hover_img .btn_plac, .tercio_img .in .hover_img .btn_plac {
+  .medio_img .in .hover_img .btn_plac, .tercio_img .in .hover_img .btn_plac, .big_img .in .hover_img .btn_plac {
     width: 120px;
     height: 30px;
     background-color: #e73541; }
-    .medio_img .in .hover_img .btn_plac p, .tercio_img .in .hover_img .btn_plac p {
+    .medio_img .in .hover_img .btn_plac p, .tercio_img .in .hover_img .btn_plac p, .big_img .in .hover_img .btn_plac p {
       text-align: center;
       font-size: 12px;
       color: #f0f0f2;
@@ -226,48 +244,53 @@ nav {
     width: 100%;
     position: relative; }
 
-.noticiasInfo {
+.noticiasInfo, .noticiasInfoFull {
   width: 300px;
   height: 360px; }
-  .noticiasInfo .infoIn {
+  .noticiasInfo .infoIn, .noticiasInfoFull .infoIn {
     width: 100%;
     height: 40px;
     position: relative; }
-    .noticiasInfo .infoIn p {
+    .noticiasInfo .infoIn p, .noticiasInfoFull .infoIn p {
       font-weight: 700;
       font-style: normal;
       color: #1d1d1d; }
-  .noticiasInfo .date {
+  .noticiasInfo .date, .noticiasInfoFull .date {
     width: 100%;
     height: 20px;
     position: relative; }
-    .noticiasInfo .date p {
+    .noticiasInfo .date p, .noticiasInfoFull .date p {
       font-size: 11px;
       color: #1d1d1d;
       font-style: italic; }
-  .noticiasInfo .infoNoticias {
+  .noticiasInfo .infoNoticias, .noticiasInfoFull .infoNoticias {
     width: 100%;
     height: auto;
     position: relative; }
-    .noticiasInfo .infoNoticias p {
+    .noticiasInfo .infoNoticias p, .noticiasInfoFull .infoNoticias p {
       color: #1d1d1d; }
-  .noticiasInfo .btnHold {
+  .noticiasInfo .btnHold, .noticiasInfoFull .btnHold {
     width: 120px;
     height: 30px;
     position: relative;
     float: right;
     margin-top: 20px; }
-    .noticiasInfo .btnHold .btn_plac {
+    .noticiasInfo .btnHold .btn_plac, .noticiasInfoFull .btnHold .btn_plac {
       width: 120px;
       height: 30px;
       background-color: #d2d2d2; }
-      .noticiasInfo .btnHold .btn_plac p {
+      .noticiasInfo .btnHold .btn_plac p, .noticiasInfoFull .btnHold .btn_plac p {
         text-align: center;
         font-size: 12px;
         color: #1d1d1d;
         margin: 0 auto;
         margin-top: 7px;
         font-weight: 700; }
+
+.noticiasInfoFull {
+  width: 980px;
+  height: 450px;
+  position: relative; }
 
 .quines_somos {
   width: 100%;
@@ -334,55 +357,55 @@ nav {
       margin: 0 auto;
       text-align: center; }
 
-.directorio_somos, .inSections {
+.directorio_somos, .inSections, .noticias_comunicacion {
   width: 100%;
   height: auto;
   padding-bottom: 20px;
   position: relative; }
-  .directorio_somos .subNav, .inSections .subNav {
+  .directorio_somos .subNav, .inSections .subNav, .noticias_comunicacion .subNav {
     width: 100%;
     height: 40px;
     background-color: #d2d2d2;
     position: relative;
     margin-top: -12px;
     margin-bottom: 40px; }
-    .directorio_somos .subNav ul, .inSections .subNav ul {
+    .directorio_somos .subNav ul, .inSections .subNav ul, .noticias_comunicacion .subNav ul {
       width: 760px;
       height: 25px;
       position: relative;
       top: 7px;
       margin-left: 190px; }
-      .directorio_somos .subNav ul .yes-act li, .inSections .subNav ul .yes-act li {
+      .directorio_somos .subNav ul .yes-act li, .inSections .subNav ul .yes-act li, .noticias_comunicacion .subNav ul .yes-act li {
         color: #e73541; }
-      .directorio_somos .subNav ul li, .inSections .subNav ul li {
+      .directorio_somos .subNav ul li, .inSections .subNav ul li, .noticias_comunicacion .subNav ul li {
         width: 100px;
         float: left;
         text-align: center;
         line-height: 13px;
         margin-right: 10px;
         margin-left: 10px; }
-        .directorio_somos .subNav ul li:hover, .inSections .subNav ul li:hover {
+        .directorio_somos .subNav ul li:hover, .inSections .subNav ul li:hover, .noticias_comunicacion .subNav ul li:hover {
           color: #e73541; }
-      .directorio_somos .subNav ul #general-dir li, .directorio_somos .subNav ul #tecnica-dir li, .inSections .subNav ul #general-dir li, .inSections .subNav ul #tecnica-dir li {
+      .directorio_somos .subNav ul #general-dir li, .directorio_somos .subNav ul #tecnica-dir li, .inSections .subNav ul #general-dir li, .inSections .subNav ul #tecnica-dir li, .noticias_comunicacion .subNav ul #general-dir li, .noticias_comunicacion .subNav ul #tecnica-dir li {
         width: 70px; }
-      .directorio_somos .subNav ul #juridica-dir li, .inSections .subNav ul #juridica-dir li {
+      .directorio_somos .subNav ul #juridica-dir li, .inSections .subNav ul #juridica-dir li, .noticias_comunicacion .subNav ul #juridica-dir li {
         width: 110px; }
-      .directorio_somos .subNav ul #coordinacion-dir li, .inSections .subNav ul #coordinacion-dir li {
+      .directorio_somos .subNav ul #coordinacion-dir li, .inSections .subNav ul #coordinacion-dir li, .noticias_comunicacion .subNav ul #coordinacion-dir li {
         width: 190px; }
-  .directorio_somos h1, .inSections h1 {
+  .directorio_somos h1, .inSections h1, .noticias_comunicacion h1 {
     text-align: center;
     margin-bottom: 20px;
     width: 100%; }
-  .directorio_somos h3, .inSections h3 {
+  .directorio_somos h3, .inSections h3, .noticias_comunicacion h3 {
     text-align: center;
     margin-bottom: 25px; }
-  .directorio_somos .holdDirectorio, .inSections .holdDirectorio {
+  .directorio_somos .holdDirectorio, .inSections .holdDirectorio, .noticias_comunicacion .holdDirectorio {
     width: 960px;
     height: 720px;
     position: relative;
     margin: 0 auto;
     background-color: #ffffff; }
-    .directorio_somos .holdDirectorio .holdIntegrante, .inSections .holdDirectorio .holdIntegrante {
+    .directorio_somos .holdDirectorio .holdIntegrante, .inSections .holdDirectorio .holdIntegrante, .noticias_comunicacion .holdDirectorio .holdIntegrante {
       width: 220px;
       height: 330px;
       padding: 10px;
@@ -390,45 +413,45 @@ nav {
       float: left;
       cursor: pointer;
       overflow: hidden; }
-      .directorio_somos .holdDirectorio .holdIntegrante .holdBotu, .inSections .holdDirectorio .holdIntegrante .holdBotu {
+      .directorio_somos .holdDirectorio .holdIntegrante .holdBotu, .inSections .holdDirectorio .holdIntegrante .holdBotu, .noticias_comunicacion .holdDirectorio .holdIntegrante .holdBotu {
         width: 100%;
         height: 100%;
         position: absolute;
         top: 10px;
         left: 10px; }
-        .directorio_somos .holdDirectorio .holdIntegrante .holdBotu .mainPic, .directorio_somos .holdDirectorio .holdIntegrante .holdBotu .backInfo, .inSections .holdDirectorio .holdIntegrante .holdBotu .mainPic, .inSections .holdDirectorio .holdIntegrante .holdBotu .backInfo {
+        .directorio_somos .holdDirectorio .holdIntegrante .holdBotu .mainPic, .directorio_somos .holdDirectorio .holdIntegrante .holdBotu .backInfo, .inSections .holdDirectorio .holdIntegrante .holdBotu .mainPic, .inSections .holdDirectorio .holdIntegrante .holdBotu .backInfo, .noticias_comunicacion .holdDirectorio .holdIntegrante .holdBotu .mainPic, .noticias_comunicacion .holdDirectorio .holdIntegrante .holdBotu .backInfo {
           width: 100%;
           height: 100%;
           position: absolute;
           top: 0;
           left: 0;
           overflow: hidden; }
-          .directorio_somos .holdDirectorio .holdIntegrante .holdBotu .mainPic img, .directorio_somos .holdDirectorio .holdIntegrante .holdBotu .backInfo img, .inSections .holdDirectorio .holdIntegrante .holdBotu .mainPic img, .inSections .holdDirectorio .holdIntegrante .holdBotu .backInfo img {
+          .directorio_somos .holdDirectorio .holdIntegrante .holdBotu .mainPic img, .directorio_somos .holdDirectorio .holdIntegrante .holdBotu .backInfo img, .inSections .holdDirectorio .holdIntegrante .holdBotu .mainPic img, .inSections .holdDirectorio .holdIntegrante .holdBotu .backInfo img, .noticias_comunicacion .holdDirectorio .holdIntegrante .holdBotu .mainPic img, .noticias_comunicacion .holdDirectorio .holdIntegrante .holdBotu .backInfo img {
             height: 100%;
             position: absolute;
             top: 0; }
-        .directorio_somos .holdDirectorio .holdIntegrante .holdBotu .backInfo, .inSections .holdDirectorio .holdIntegrante .holdBotu .backInfo {
+        .directorio_somos .holdDirectorio .holdIntegrante .holdBotu .backInfo, .inSections .holdDirectorio .holdIntegrante .holdBotu .backInfo, .noticias_comunicacion .holdDirectorio .holdIntegrante .holdBotu .backInfo {
           background-color: #a8232c;
           color: #f0f0f2 !important;
           opacity: 1;
           left: 100%; }
-          .directorio_somos .holdDirectorio .holdIntegrante .holdBotu .backInfo .name, .directorio_somos .holdDirectorio .holdIntegrante .holdBotu .backInfo .title, .directorio_somos .holdDirectorio .holdIntegrante .holdBotu .backInfo .btm_info, .inSections .holdDirectorio .holdIntegrante .holdBotu .backInfo .name, .inSections .holdDirectorio .holdIntegrante .holdBotu .backInfo .title, .inSections .holdDirectorio .holdIntegrante .holdBotu .backInfo .btm_info {
+          .directorio_somos .holdDirectorio .holdIntegrante .holdBotu .backInfo .name, .directorio_somos .holdDirectorio .holdIntegrante .holdBotu .backInfo .title, .directorio_somos .holdDirectorio .holdIntegrante .holdBotu .backInfo .btm_info, .inSections .holdDirectorio .holdIntegrante .holdBotu .backInfo .name, .inSections .holdDirectorio .holdIntegrante .holdBotu .backInfo .title, .inSections .holdDirectorio .holdIntegrante .holdBotu .backInfo .btm_info, .noticias_comunicacion .holdDirectorio .holdIntegrante .holdBotu .backInfo .name, .noticias_comunicacion .holdDirectorio .holdIntegrante .holdBotu .backInfo .title, .noticias_comunicacion .holdDirectorio .holdIntegrante .holdBotu .backInfo .btm_info {
             width: 180px;
             margin: 0 auto; }
-            .directorio_somos .holdDirectorio .holdIntegrante .holdBotu .backInfo .name h4, .directorio_somos .holdDirectorio .holdIntegrante .holdBotu .backInfo .name p, .directorio_somos .holdDirectorio .holdIntegrante .holdBotu .backInfo .title h4, .directorio_somos .holdDirectorio .holdIntegrante .holdBotu .backInfo .title p, .directorio_somos .holdDirectorio .holdIntegrante .holdBotu .backInfo .btm_info h4, .directorio_somos .holdDirectorio .holdIntegrante .holdBotu .backInfo .btm_info p, .inSections .holdDirectorio .holdIntegrante .holdBotu .backInfo .name h4, .inSections .holdDirectorio .holdIntegrante .holdBotu .backInfo .name p, .inSections .holdDirectorio .holdIntegrante .holdBotu .backInfo .title h4, .inSections .holdDirectorio .holdIntegrante .holdBotu .backInfo .title p, .inSections .holdDirectorio .holdIntegrante .holdBotu .backInfo .btm_info h4, .inSections .holdDirectorio .holdIntegrante .holdBotu .backInfo .btm_info p {
+            .directorio_somos .holdDirectorio .holdIntegrante .holdBotu .backInfo .name h4, .directorio_somos .holdDirectorio .holdIntegrante .holdBotu .backInfo .name p, .directorio_somos .holdDirectorio .holdIntegrante .holdBotu .backInfo .title h4, .directorio_somos .holdDirectorio .holdIntegrante .holdBotu .backInfo .title p, .directorio_somos .holdDirectorio .holdIntegrante .holdBotu .backInfo .btm_info h4, .directorio_somos .holdDirectorio .holdIntegrante .holdBotu .backInfo .btm_info p, .inSections .holdDirectorio .holdIntegrante .holdBotu .backInfo .name h4, .inSections .holdDirectorio .holdIntegrante .holdBotu .backInfo .name p, .inSections .holdDirectorio .holdIntegrante .holdBotu .backInfo .title h4, .inSections .holdDirectorio .holdIntegrante .holdBotu .backInfo .title p, .inSections .holdDirectorio .holdIntegrante .holdBotu .backInfo .btm_info h4, .inSections .holdDirectorio .holdIntegrante .holdBotu .backInfo .btm_info p, .noticias_comunicacion .holdDirectorio .holdIntegrante .holdBotu .backInfo .name h4, .noticias_comunicacion .holdDirectorio .holdIntegrante .holdBotu .backInfo .name p, .noticias_comunicacion .holdDirectorio .holdIntegrante .holdBotu .backInfo .title h4, .noticias_comunicacion .holdDirectorio .holdIntegrante .holdBotu .backInfo .title p, .noticias_comunicacion .holdDirectorio .holdIntegrante .holdBotu .backInfo .btm_info h4, .noticias_comunicacion .holdDirectorio .holdIntegrante .holdBotu .backInfo .btm_info p {
               color: #f0f0f2; }
-            .directorio_somos .holdDirectorio .holdIntegrante .holdBotu .backInfo .name h4, .directorio_somos .holdDirectorio .holdIntegrante .holdBotu .backInfo .title h4, .directorio_somos .holdDirectorio .holdIntegrante .holdBotu .backInfo .btm_info h4, .inSections .holdDirectorio .holdIntegrante .holdBotu .backInfo .name h4, .inSections .holdDirectorio .holdIntegrante .holdBotu .backInfo .title h4, .inSections .holdDirectorio .holdIntegrante .holdBotu .backInfo .btm_info h4 {
+            .directorio_somos .holdDirectorio .holdIntegrante .holdBotu .backInfo .name h4, .directorio_somos .holdDirectorio .holdIntegrante .holdBotu .backInfo .title h4, .directorio_somos .holdDirectorio .holdIntegrante .holdBotu .backInfo .btm_info h4, .inSections .holdDirectorio .holdIntegrante .holdBotu .backInfo .name h4, .inSections .holdDirectorio .holdIntegrante .holdBotu .backInfo .title h4, .inSections .holdDirectorio .holdIntegrante .holdBotu .backInfo .btm_info h4, .noticias_comunicacion .holdDirectorio .holdIntegrante .holdBotu .backInfo .name h4, .noticias_comunicacion .holdDirectorio .holdIntegrante .holdBotu .backInfo .title h4, .noticias_comunicacion .holdDirectorio .holdIntegrante .holdBotu .backInfo .btm_info h4 {
               margin-bottom: 15px; }
-            .directorio_somos .holdDirectorio .holdIntegrante .holdBotu .backInfo .name p, .directorio_somos .holdDirectorio .holdIntegrante .holdBotu .backInfo .title p, .directorio_somos .holdDirectorio .holdIntegrante .holdBotu .backInfo .btm_info p, .inSections .holdDirectorio .holdIntegrante .holdBotu .backInfo .name p, .inSections .holdDirectorio .holdIntegrante .holdBotu .backInfo .title p, .inSections .holdDirectorio .holdIntegrante .holdBotu .backInfo .btm_info p {
+            .directorio_somos .holdDirectorio .holdIntegrante .holdBotu .backInfo .name p, .directorio_somos .holdDirectorio .holdIntegrante .holdBotu .backInfo .title p, .directorio_somos .holdDirectorio .holdIntegrante .holdBotu .backInfo .btm_info p, .inSections .holdDirectorio .holdIntegrante .holdBotu .backInfo .name p, .inSections .holdDirectorio .holdIntegrante .holdBotu .backInfo .title p, .inSections .holdDirectorio .holdIntegrante .holdBotu .backInfo .btm_info p, .noticias_comunicacion .holdDirectorio .holdIntegrante .holdBotu .backInfo .name p, .noticias_comunicacion .holdDirectorio .holdIntegrante .holdBotu .backInfo .title p, .noticias_comunicacion .holdDirectorio .holdIntegrante .holdBotu .backInfo .btm_info p {
               font-size: 13px;
               margin-bottom: 90px;
               font-style: italic; }
-            .directorio_somos .holdDirectorio .holdIntegrante .holdBotu .backInfo .name .icon_hold, .directorio_somos .holdDirectorio .holdIntegrante .holdBotu .backInfo .title .icon_hold, .directorio_somos .holdDirectorio .holdIntegrante .holdBotu .backInfo .btm_info .icon_hold, .inSections .holdDirectorio .holdIntegrante .holdBotu .backInfo .name .icon_hold, .inSections .holdDirectorio .holdIntegrante .holdBotu .backInfo .title .icon_hold, .inSections .holdDirectorio .holdIntegrante .holdBotu .backInfo .btm_info .icon_hold {
+            .directorio_somos .holdDirectorio .holdIntegrante .holdBotu .backInfo .name .icon_hold, .directorio_somos .holdDirectorio .holdIntegrante .holdBotu .backInfo .title .icon_hold, .directorio_somos .holdDirectorio .holdIntegrante .holdBotu .backInfo .btm_info .icon_hold, .inSections .holdDirectorio .holdIntegrante .holdBotu .backInfo .name .icon_hold, .inSections .holdDirectorio .holdIntegrante .holdBotu .backInfo .title .icon_hold, .inSections .holdDirectorio .holdIntegrante .holdBotu .backInfo .btm_info .icon_hold, .noticias_comunicacion .holdDirectorio .holdIntegrante .holdBotu .backInfo .name .icon_hold, .noticias_comunicacion .holdDirectorio .holdIntegrante .holdBotu .backInfo .title .icon_hold, .noticias_comunicacion .holdDirectorio .holdIntegrante .holdBotu .backInfo .btm_info .icon_hold {
               height: 32px;
               width: 100%;
               position: relative;
               margin-bottom: 10px; }
-              .directorio_somos .holdDirectorio .holdIntegrante .holdBotu .backInfo .name .icon_hold .icon, .directorio_somos .holdDirectorio .holdIntegrante .holdBotu .backInfo .title .icon_hold .icon, .directorio_somos .holdDirectorio .holdIntegrante .holdBotu .backInfo .btm_info .icon_hold .icon, .inSections .holdDirectorio .holdIntegrante .holdBotu .backInfo .name .icon_hold .icon, .inSections .holdDirectorio .holdIntegrante .holdBotu .backInfo .title .icon_hold .icon, .inSections .holdDirectorio .holdIntegrante .holdBotu .backInfo .btm_info .icon_hold .icon {
+              .directorio_somos .holdDirectorio .holdIntegrante .holdBotu .backInfo .name .icon_hold .icon, .directorio_somos .holdDirectorio .holdIntegrante .holdBotu .backInfo .title .icon_hold .icon, .directorio_somos .holdDirectorio .holdIntegrante .holdBotu .backInfo .btm_info .icon_hold .icon, .inSections .holdDirectorio .holdIntegrante .holdBotu .backInfo .name .icon_hold .icon, .inSections .holdDirectorio .holdIntegrante .holdBotu .backInfo .title .icon_hold .icon, .inSections .holdDirectorio .holdIntegrante .holdBotu .backInfo .btm_info .icon_hold .icon, .noticias_comunicacion .holdDirectorio .holdIntegrante .holdBotu .backInfo .name .icon_hold .icon, .noticias_comunicacion .holdDirectorio .holdIntegrante .holdBotu .backInfo .title .icon_hold .icon, .noticias_comunicacion .holdDirectorio .holdIntegrante .holdBotu .backInfo .btm_info .icon_hold .icon {
                 width: 32px;
                 height: 32px;
                 float: left;
@@ -439,21 +462,21 @@ nav {
                 margin-right: 20px;
                 background-position: center;
                 background-repeat: no-repeat; }
-                .directorio_somos .holdDirectorio .holdIntegrante .holdBotu .backInfo .name .icon_hold .icon#num-dir, .directorio_somos .holdDirectorio .holdIntegrante .holdBotu .backInfo .title .icon_hold .icon#num-dir, .directorio_somos .holdDirectorio .holdIntegrante .holdBotu .backInfo .btm_info .icon_hold .icon#num-dir, .inSections .holdDirectorio .holdIntegrante .holdBotu .backInfo .name .icon_hold .icon#num-dir, .inSections .holdDirectorio .holdIntegrante .holdBotu .backInfo .title .icon_hold .icon#num-dir, .inSections .holdDirectorio .holdIntegrante .holdBotu .backInfo .btm_info .icon_hold .icon#num-dir {
+                .directorio_somos .holdDirectorio .holdIntegrante .holdBotu .backInfo .name .icon_hold .icon#num-dir, .directorio_somos .holdDirectorio .holdIntegrante .holdBotu .backInfo .title .icon_hold .icon#num-dir, .directorio_somos .holdDirectorio .holdIntegrante .holdBotu .backInfo .btm_info .icon_hold .icon#num-dir, .inSections .holdDirectorio .holdIntegrante .holdBotu .backInfo .name .icon_hold .icon#num-dir, .inSections .holdDirectorio .holdIntegrante .holdBotu .backInfo .title .icon_hold .icon#num-dir, .inSections .holdDirectorio .holdIntegrante .holdBotu .backInfo .btm_info .icon_hold .icon#num-dir, .noticias_comunicacion .holdDirectorio .holdIntegrante .holdBotu .backInfo .name .icon_hold .icon#num-dir, .noticias_comunicacion .holdDirectorio .holdIntegrante .holdBotu .backInfo .title .icon_hold .icon#num-dir, .noticias_comunicacion .holdDirectorio .holdIntegrante .holdBotu .backInfo .btm_info .icon_hold .icon#num-dir {
                   background-image: url("../assets/images/gui/quienes_somos/directorio/ext-icon.png"); }
-                .directorio_somos .holdDirectorio .holdIntegrante .holdBotu .backInfo .name .icon_hold .icon#mail-dir, .directorio_somos .holdDirectorio .holdIntegrante .holdBotu .backInfo .title .icon_hold .icon#mail-dir, .directorio_somos .holdDirectorio .holdIntegrante .holdBotu .backInfo .btm_info .icon_hold .icon#mail-dir, .inSections .holdDirectorio .holdIntegrante .holdBotu .backInfo .name .icon_hold .icon#mail-dir, .inSections .holdDirectorio .holdIntegrante .holdBotu .backInfo .title .icon_hold .icon#mail-dir, .inSections .holdDirectorio .holdIntegrante .holdBotu .backInfo .btm_info .icon_hold .icon#mail-dir {
+                .directorio_somos .holdDirectorio .holdIntegrante .holdBotu .backInfo .name .icon_hold .icon#mail-dir, .directorio_somos .holdDirectorio .holdIntegrante .holdBotu .backInfo .title .icon_hold .icon#mail-dir, .directorio_somos .holdDirectorio .holdIntegrante .holdBotu .backInfo .btm_info .icon_hold .icon#mail-dir, .inSections .holdDirectorio .holdIntegrante .holdBotu .backInfo .name .icon_hold .icon#mail-dir, .inSections .holdDirectorio .holdIntegrante .holdBotu .backInfo .title .icon_hold .icon#mail-dir, .inSections .holdDirectorio .holdIntegrante .holdBotu .backInfo .btm_info .icon_hold .icon#mail-dir, .noticias_comunicacion .holdDirectorio .holdIntegrante .holdBotu .backInfo .name .icon_hold .icon#mail-dir, .noticias_comunicacion .holdDirectorio .holdIntegrante .holdBotu .backInfo .title .icon_hold .icon#mail-dir, .noticias_comunicacion .holdDirectorio .holdIntegrante .holdBotu .backInfo .btm_info .icon_hold .icon#mail-dir {
                   background-image: url("../assets/images/gui/quienes_somos/directorio/correo-icon.png"); }
-                .directorio_somos .holdDirectorio .holdIntegrante .holdBotu .backInfo .name .icon_hold .icon#mas-dir, .directorio_somos .holdDirectorio .holdIntegrante .holdBotu .backInfo .title .icon_hold .icon#mas-dir, .directorio_somos .holdDirectorio .holdIntegrante .holdBotu .backInfo .btm_info .icon_hold .icon#mas-dir, .inSections .holdDirectorio .holdIntegrante .holdBotu .backInfo .name .icon_hold .icon#mas-dir, .inSections .holdDirectorio .holdIntegrante .holdBotu .backInfo .title .icon_hold .icon#mas-dir, .inSections .holdDirectorio .holdIntegrante .holdBotu .backInfo .btm_info .icon_hold .icon#mas-dir {
+                .directorio_somos .holdDirectorio .holdIntegrante .holdBotu .backInfo .name .icon_hold .icon#mas-dir, .directorio_somos .holdDirectorio .holdIntegrante .holdBotu .backInfo .title .icon_hold .icon#mas-dir, .directorio_somos .holdDirectorio .holdIntegrante .holdBotu .backInfo .btm_info .icon_hold .icon#mas-dir, .inSections .holdDirectorio .holdIntegrante .holdBotu .backInfo .name .icon_hold .icon#mas-dir, .inSections .holdDirectorio .holdIntegrante .holdBotu .backInfo .title .icon_hold .icon#mas-dir, .inSections .holdDirectorio .holdIntegrante .holdBotu .backInfo .btm_info .icon_hold .icon#mas-dir, .noticias_comunicacion .holdDirectorio .holdIntegrante .holdBotu .backInfo .name .icon_hold .icon#mas-dir, .noticias_comunicacion .holdDirectorio .holdIntegrante .holdBotu .backInfo .title .icon_hold .icon#mas-dir, .noticias_comunicacion .holdDirectorio .holdIntegrante .holdBotu .backInfo .btm_info .icon_hold .icon#mas-dir {
                   background-image: url("../assets/images/gui/quienes_somos/directorio/mas-icon.png");
                   background-color: #e73541; }
-              .directorio_somos .holdDirectorio .holdIntegrante .holdBotu .backInfo .name .icon_hold p, .directorio_somos .holdDirectorio .holdIntegrante .holdBotu .backInfo .title .icon_hold p, .directorio_somos .holdDirectorio .holdIntegrante .holdBotu .backInfo .btm_info .icon_hold p, .inSections .holdDirectorio .holdIntegrante .holdBotu .backInfo .name .icon_hold p, .inSections .holdDirectorio .holdIntegrante .holdBotu .backInfo .title .icon_hold p, .inSections .holdDirectorio .holdIntegrante .holdBotu .backInfo .btm_info .icon_hold p {
+              .directorio_somos .holdDirectorio .holdIntegrante .holdBotu .backInfo .name .icon_hold p, .directorio_somos .holdDirectorio .holdIntegrante .holdBotu .backInfo .title .icon_hold p, .directorio_somos .holdDirectorio .holdIntegrante .holdBotu .backInfo .btm_info .icon_hold p, .inSections .holdDirectorio .holdIntegrante .holdBotu .backInfo .name .icon_hold p, .inSections .holdDirectorio .holdIntegrante .holdBotu .backInfo .title .icon_hold p, .inSections .holdDirectorio .holdIntegrante .holdBotu .backInfo .btm_info .icon_hold p, .noticias_comunicacion .holdDirectorio .holdIntegrante .holdBotu .backInfo .name .icon_hold p, .noticias_comunicacion .holdDirectorio .holdIntegrante .holdBotu .backInfo .title .icon_hold p, .noticias_comunicacion .holdDirectorio .holdIntegrante .holdBotu .backInfo .btm_info .icon_hold p {
                 position: relative;
                 margin-bottom: 0;
                 top: 11px;
                 font-size: 13px;
                 font-style: normal;
                 float: left; }
-  .directorio_somos .containerPopUp, .inSections .containerPopUp {
+  .directorio_somos .containerPopUp, .inSections .containerPopUp, .noticias_comunicacion .containerPopUp {
     width: 100%;
     height: 100%;
     position: absolute;
@@ -461,22 +484,22 @@ nav {
     lef: 0;
     background-color: rgba(174, 174, 174, 0.5);
     display: none; }
-    .directorio_somos .containerPopUp .holdInfo, .inSections .containerPopUp .holdInfo {
+    .directorio_somos .containerPopUp .holdInfo, .inSections .containerPopUp .holdInfo, .noticias_comunicacion .containerPopUp .holdInfo {
       width: 880px;
       height: 630px;
       padding: 30px;
       background-color: #d2d2d2;
       top: 100px; }
-      .directorio_somos .containerPopUp .holdInfo .holdTopinfo, .inSections .containerPopUp .holdInfo .holdTopinfo {
+      .directorio_somos .containerPopUp .holdInfo .holdTopinfo, .inSections .containerPopUp .holdInfo .holdTopinfo, .noticias_comunicacion .containerPopUp .holdInfo .holdTopinfo {
         width: 100%;
         height: 320px;
         position: relative; }
-        .directorio_somos .containerPopUp .holdInfo .holdTopinfo img, .inSections .containerPopUp .holdInfo .holdTopinfo img {
+        .directorio_somos .containerPopUp .holdInfo .holdTopinfo img, .inSections .containerPopUp .holdInfo .holdTopinfo img, .noticias_comunicacion .containerPopUp .holdInfo .holdTopinfo img {
           height: 100%;
           position: relative;
           float: left;
           margin-right: 50px; }
-        .directorio_somos .containerPopUp .holdInfo .holdTopinfo .close, .inSections .containerPopUp .holdInfo .holdTopinfo .close {
+        .directorio_somos .containerPopUp .holdInfo .holdTopinfo .close, .inSections .containerPopUp .holdInfo .holdTopinfo .close, .noticias_comunicacion .containerPopUp .holdInfo .holdTopinfo .close {
           width: 30px;
           height: 32px;
           position: absolute;
@@ -490,61 +513,93 @@ nav {
           background-position: center;
           background-repeat: no-repeat;
           cursor: pointer; }
-        .directorio_somos .containerPopUp .holdInfo .holdTopinfo .holdInfo2, .inSections .containerPopUp .holdInfo .holdTopinfo .holdInfo2 {
+        .directorio_somos .containerPopUp .holdInfo .holdTopinfo .holdInfo2, .inSections .containerPopUp .holdInfo .holdTopinfo .holdInfo2, .noticias_comunicacion .containerPopUp .holdInfo .holdTopinfo .holdInfo2 {
           width: 610px;
           height: 290px;
           float: left;
           padding-top: 35px;
           position: relative;
           margin-bottom: 30px; }
-          .directorio_somos .containerPopUp .holdInfo .holdTopinfo .holdInfo2 h3, .directorio_somos .containerPopUp .holdInfo .holdTopinfo .holdInfo2 h4, .inSections .containerPopUp .holdInfo .holdTopinfo .holdInfo2 h3, .inSections .containerPopUp .holdInfo .holdTopinfo .holdInfo2 h4 {
+          .directorio_somos .containerPopUp .holdInfo .holdTopinfo .holdInfo2 h3, .directorio_somos .containerPopUp .holdInfo .holdTopinfo .holdInfo2 h4, .inSections .containerPopUp .holdInfo .holdTopinfo .holdInfo2 h3, .inSections .containerPopUp .holdInfo .holdTopinfo .holdInfo2 h4, .noticias_comunicacion .containerPopUp .holdInfo .holdTopinfo .holdInfo2 h3, .noticias_comunicacion .containerPopUp .holdInfo .holdTopinfo .holdInfo2 h4 {
             text-align: left; }
-          .directorio_somos .containerPopUp .holdInfo .holdTopinfo .holdInfo2 h3, .inSections .containerPopUp .holdInfo .holdTopinfo .holdInfo2 h3 {
+          .directorio_somos .containerPopUp .holdInfo .holdTopinfo .holdInfo2 h3, .inSections .containerPopUp .holdInfo .holdTopinfo .holdInfo2 h3, .noticias_comunicacion .containerPopUp .holdInfo .holdTopinfo .holdInfo2 h3 {
             color: #e73541;
             font-weight: 700; }
-          .directorio_somos .containerPopUp .holdInfo .holdTopinfo .holdInfo2 h4, .inSections .containerPopUp .holdInfo .holdTopinfo .holdInfo2 h4 {
+          .directorio_somos .containerPopUp .holdInfo .holdTopinfo .holdInfo2 h4, .inSections .containerPopUp .holdInfo .holdTopinfo .holdInfo2 h4, .noticias_comunicacion .containerPopUp .holdInfo .holdTopinfo .holdInfo2 h4 {
             color: #f0f0f2;
             font-style: italica; }
-          .directorio_somos .containerPopUp .holdInfo .holdTopinfo .holdInfo2 .col p, .inSections .containerPopUp .holdInfo .holdTopinfo .holdInfo2 .col p {
+          .directorio_somos .containerPopUp .holdInfo .holdTopinfo .holdInfo2 .col p, .inSections .containerPopUp .holdInfo .holdTopinfo .holdInfo2 .col p, .noticias_comunicacion .containerPopUp .holdInfo .holdTopinfo .holdInfo2 .col p {
             margin-bottom: 25px;
             color: #1d1d1d; }
-            .directorio_somos .containerPopUp .holdInfo .holdTopinfo .holdInfo2 .col p span, .inSections .containerPopUp .holdInfo .holdTopinfo .holdInfo2 .col p span {
+            .directorio_somos .containerPopUp .holdInfo .holdTopinfo .holdInfo2 .col p span, .inSections .containerPopUp .holdInfo .holdTopinfo .holdInfo2 .col p span, .noticias_comunicacion .containerPopUp .holdInfo .holdTopinfo .holdInfo2 .col p span {
               font-weight: 700;
               color: #1d1d1d; }
-      .directorio_somos .containerPopUp .holdInfo .lowInfo, .inSections .containerPopUp .holdInfo .lowInfo {
+      .directorio_somos .containerPopUp .holdInfo .lowInfo, .inSections .containerPopUp .holdInfo .lowInfo, .noticias_comunicacion .containerPopUp .holdInfo .lowInfo {
         width: 100%; }
-        .directorio_somos .containerPopUp .holdInfo .lowInfo h3, .inSections .containerPopUp .holdInfo .lowInfo h3 {
+        .directorio_somos .containerPopUp .holdInfo .lowInfo h3, .inSections .containerPopUp .holdInfo .lowInfo h3, .noticias_comunicacion .containerPopUp .holdInfo .lowInfo h3 {
           color: #e73541;
           margin-bottom: 15px; }
-        .directorio_somos .containerPopUp .holdInfo .lowInfo ul, .inSections .containerPopUp .holdInfo .lowInfo ul {
+        .directorio_somos .containerPopUp .holdInfo .lowInfo ul, .inSections .containerPopUp .holdInfo .lowInfo ul, .noticias_comunicacion .containerPopUp .holdInfo .lowInfo ul {
           float: left;
           width: 45%;
           padding-left: 2.5%; }
-          .directorio_somos .containerPopUp .holdInfo .lowInfo ul li:before, .inSections .containerPopUp .holdInfo .lowInfo ul li:before {
+          .directorio_somos .containerPopUp .holdInfo .lowInfo ul li:before, .inSections .containerPopUp .holdInfo .lowInfo ul li:before, .noticias_comunicacion .containerPopUp .holdInfo .lowInfo ul li:before {
             content: "•";
             font-style: 30px;
             font-weight: 700; }
-          .directorio_somos .containerPopUp .holdInfo .lowInfo ul li, .inSections .containerPopUp .holdInfo .lowInfo ul li {
+          .directorio_somos .containerPopUp .holdInfo .lowInfo ul li, .inSections .containerPopUp .holdInfo .lowInfo ul li, .noticias_comunicacion .containerPopUp .holdInfo .lowInfo ul li {
             padding-left: 10px; }
-        .directorio_somos .containerPopUp .holdInfo .lowInfo .holdNavs, .inSections .containerPopUp .holdInfo .lowInfo .holdNavs {
+        .directorio_somos .containerPopUp .holdInfo .lowInfo .holdNavs, .inSections .containerPopUp .holdInfo .lowInfo .holdNavs, .noticias_comunicacion .containerPopUp .holdInfo .lowInfo .holdNavs {
           width: 40px;
           height: 17px;
           position: absolute;
           bottom: 30px;
           right: 30px; }
-          .directorio_somos .containerPopUp .holdInfo .lowInfo .holdNavs .btns, .inSections .containerPopUp .holdInfo .lowInfo .holdNavs .btns {
+          .directorio_somos .containerPopUp .holdInfo .lowInfo .holdNavs .btns, .inSections .containerPopUp .holdInfo .lowInfo .holdNavs .btns, .noticias_comunicacion .containerPopUp .holdInfo .lowInfo .holdNavs .btns {
             width: 50%;
             height: 100%;
             position: relative;
             float: left;
             background-repeat: no-repeat;
             cursor: pointer; }
-          .directorio_somos .containerPopUp .holdInfo .lowInfo .holdNavs .back, .inSections .containerPopUp .holdInfo .lowInfo .holdNavs .back {
+          .directorio_somos .containerPopUp .holdInfo .lowInfo .holdNavs .back, .inSections .containerPopUp .holdInfo .lowInfo .holdNavs .back, .noticias_comunicacion .containerPopUp .holdInfo .lowInfo .holdNavs .back {
             background-image: url("../assets/images/gui/quienes_somos/directorio/back.png");
             background-position: left; }
-          .directorio_somos .containerPopUp .holdInfo .lowInfo .holdNavs .next, .inSections .containerPopUp .holdInfo .lowInfo .holdNavs .next {
+          .directorio_somos .containerPopUp .holdInfo .lowInfo .holdNavs .next, .inSections .containerPopUp .holdInfo .lowInfo .holdNavs .next, .noticias_comunicacion .containerPopUp .holdInfo .lowInfo .holdNavs .next {
             background-image: url("../assets/images/gui/quienes_somos/directorio/next.png");
             background-position: right; }
+
+.noticias_comunicacion .containerPopUp {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  top: 0;
+  lef: 0;
+  background-color: rgba(0, 0, 0, 0.5);
+  display: none; }
+  .noticias_comunicacion .containerPopUp .holdInfo {
+    width: 900px;
+    background-color: transparent; }
+    .noticias_comunicacion .containerPopUp .holdInfo img {
+      width: 100%;
+      position: relative; }
+    .noticias_comunicacion .containerPopUp .holdInfo .holdItInfo {
+      width: 100%;
+      height: 50px;
+      padding-top: 20px;
+      background-color: rgba(0, 0, 0, 0.5); }
+      .noticias_comunicacion .containerPopUp .holdInfo .holdItInfo p {
+        width: 860px;
+        left: 20px;
+        color: #ffffff; }
+    .noticias_comunicacion .containerPopUp .holdInfo .closeIt {
+      width: 30px;
+      height: 30px;
+      position: absolute;
+      top: 10px;
+      right: 10px;
+      background-image: url("../assets/images/gui/comunicacion/close.png");
+      cursor: pointer; }
 
 .organigrama_somos {
   background-color: #ffffff;
@@ -563,19 +618,21 @@ nav {
 .noticias_comunicacion {
   height: 1300px;
   padding-top: 40px; }
-  .noticias_comunicacion .holdNotes {
+  .noticias_comunicacion .holdNotes, .noticias_comunicacion .hold_gals {
     width: 100%;
     height: 1200px;
     position: relative; }
-    .noticias_comunicacion .holdNotes .section-half, .noticias_comunicacion .holdNotes .section-third {
+    .noticias_comunicacion .holdNotes .section-half, .noticias_comunicacion .holdNotes .section-third, .noticias_comunicacion .hold_gals .section-half, .noticias_comunicacion .hold_gals .section-third {
       height: 400px;
       margin-bottom: 20px; }
-    .noticias_comunicacion .holdNotes .section-half .noticiasInfo {
+    .noticias_comunicacion .holdNotes .section-half .noticiasInfo, .noticias_comunicacion .hold_gals .section-half .noticiasInfo {
       width: 100%; }
-      .noticias_comunicacion .holdNotes .section-half .noticiasInfo .infoIn {
+      .noticias_comunicacion .holdNotes .section-half .noticiasInfo .infoIn, .noticias_comunicacion .hold_gals .section-half .noticiasInfo .infoIn {
         height: 60px; }
-        .noticias_comunicacion .holdNotes .section-half .noticiasInfo .infoIn p {
+        .noticias_comunicacion .holdNotes .section-half .noticiasInfo .infoIn p, .noticias_comunicacion .hold_gals .section-half .noticiasInfo .infoIn p {
           font-size: 24px; }
+  .noticias_comunicacion .hold_gals {
+    height: 1330px; }
 
 footer {
   width: 100%;
@@ -657,6 +714,9 @@ section {
 
 .section-third {
   width: 33.3%; }
+
+.section-full {
+  width: 100%; }
 
 .autoalpha-0 {
   opacity: 0;
