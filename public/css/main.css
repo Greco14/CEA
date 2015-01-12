@@ -112,12 +112,17 @@ nav {
 
 .top_cover {
   width: 100%;
-  height: 440px;
+  height: 430px;
   position: relative;
   background-color: #ffffff; }
-  .top_cover img {
+  .top_cover .imgHolder {
     width: 100%;
-    position: relative; }
+    height: 350px;
+    position: relative;
+    overflow: hidden; }
+    .top_cover .imgHolder img {
+      width: 100%;
+      position: relative; }
   .top_cover .holdLogos {
     width: 100%;
     height: 80px;
@@ -292,47 +297,47 @@ nav {
   height: 450px;
   position: relative; }
 
-.quines_somos {
+.quines_somos, .contacto {
   width: 100%;
   height: auto; }
-  .quines_somos .titleSect {
+  .quines_somos .titleSect, .contacto .titleSect {
     width: 100%;
     height: 205px;
     padding-top: 35px;
     background-color: #ffffff; }
-    .quines_somos .titleSect h1 {
+    .quines_somos .titleSect h1, .contacto .titleSect h1 {
       margin-bottom: 35px; }
-    .quines_somos .titleSect .holdMids {
+    .quines_somos .titleSect .holdMids, .contacto .titleSect .holdMids {
       width: 960px;
       height: 100px;
       position: relative;
       margin: 0 auto; }
-      .quines_somos .titleSect .holdMids .colstxt {
+      .quines_somos .titleSect .holdMids .colstxt, .contacto .titleSect .holdMids .colstxt {
         padding-left: 30px;
         margin-right: 30px;
         width: 420px; }
-        .quines_somos .titleSect .holdMids .colstxt p {
+        .quines_somos .titleSect .holdMids .colstxt p, .contacto .titleSect .holdMids .colstxt p {
           color: #1d1d1d; }
-        .quines_somos .titleSect .holdMids .colstxt span {
+        .quines_somos .titleSect .holdMids .colstxt span, .contacto .titleSect .holdMids .colstxt span {
           font-weight: 700;
           color: #1d1d1d; }
-  .quines_somos .redTag {
+  .quines_somos .redTag, .contacto .redTag {
     height: 85px !important;
     padding-top: 5px !important; }
-    .quines_somos .redTag .holdinfo {
+    .quines_somos .redTag .holdinfo, .contacto .redTag .holdinfo {
       width: 560px !important; }
-    .quines_somos .redTag p {
+    .quines_somos .redTag p, .contacto .redTag p {
       width: 460px !important;
       font-size: 22px;
       margin-top: 25px !important; }
-  .quines_somos .holdlowSect {
+  .quines_somos .holdlowSect, .contacto .holdlowSect {
     height: 350px; }
-    .quines_somos .holdlowSect .icono_sect {
+    .quines_somos .holdlowSect .icono_sect, .contacto .holdlowSect .icono_sect {
       width: 100%;
       height: 130px;
       position: relative;
       padding-top: 40px; }
-      .quines_somos .holdlowSect .icono_sect .circle {
+      .quines_somos .holdlowSect .icono_sect .circle, .contacto .holdlowSect .icono_sect .circle {
         width: 80px;
         height: 80px;
         position: relative;
@@ -343,16 +348,16 @@ nav {
         margin: 0 auto;
         background-repeat: no-repeat;
         background-position: center; }
-        .quines_somos .holdlowSect .icono_sect .circle#mision {
+        .quines_somos .holdlowSect .icono_sect .circle#mision, .contacto .holdlowSect .icono_sect .circle#mision {
           background-image: url("../assets/images/gui/quienes_somos/mision.png"); }
-        .quines_somos .holdlowSect .icono_sect .circle#vision {
+        .quines_somos .holdlowSect .icono_sect .circle#vision, .contacto .holdlowSect .icono_sect .circle#vision {
           background-image: url("../assets/images/gui/quienes_somos/vision.png"); }
-        .quines_somos .holdlowSect .icono_sect .circle#objetivo {
+        .quines_somos .holdlowSect .icono_sect .circle#objetivo, .contacto .holdlowSect .icono_sect .circle#objetivo {
           background-image: url("../assets/images/gui/quienes_somos/objetivo.png"); }
-      .quines_somos .holdlowSect .icono_sect h3 {
+      .quines_somos .holdlowSect .icono_sect h3, .contacto .holdlowSect .icono_sect h3 {
         margin-top: 15px;
         text-align: center; }
-    .quines_somos .holdlowSect .info {
+    .quines_somos .holdlowSect .info, .contacto .holdlowSect .info {
       width: 90%;
       margin: 0 auto;
       text-align: center; }
@@ -476,98 +481,99 @@ nav {
                 font-size: 13px;
                 font-style: normal;
                 float: left; }
-  .directorio_somos .containerPopUp, .inSections .containerPopUp, .noticias_comunicacion .containerPopUp {
-    width: 100%;
-    height: 100%;
-    position: absolute;
-    top: 0;
-    lef: 0;
-    background-color: rgba(174, 174, 174, 0.5);
-    display: none; }
-    .directorio_somos .containerPopUp .holdInfo, .inSections .containerPopUp .holdInfo, .noticias_comunicacion .containerPopUp .holdInfo {
-      width: 880px;
-      height: 630px;
-      padding: 30px;
-      background-color: #d2d2d2;
-      top: 100px; }
-      .directorio_somos .containerPopUp .holdInfo .holdTopinfo, .inSections .containerPopUp .holdInfo .holdTopinfo, .noticias_comunicacion .containerPopUp .holdInfo .holdTopinfo {
-        width: 100%;
-        height: 320px;
-        position: relative; }
-        .directorio_somos .containerPopUp .holdInfo .holdTopinfo img, .inSections .containerPopUp .holdInfo .holdTopinfo img, .noticias_comunicacion .containerPopUp .holdInfo .holdTopinfo img {
+
+.containerPopUp {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  top: 0;
+  lef: 0;
+  background-color: rgba(174, 174, 174, 0.5);
+  display: none; }
+  .containerPopUp .holdInfo {
+    width: 880px;
+    height: 630px;
+    padding: 30px;
+    background-color: #d2d2d2;
+    top: 100px; }
+    .containerPopUp .holdInfo .holdTopinfo {
+      width: 100%;
+      height: 320px;
+      position: relative; }
+      .containerPopUp .holdInfo .holdTopinfo img {
+        height: 100%;
+        position: relative;
+        float: left;
+        margin-right: 50px; }
+      .containerPopUp .holdInfo .holdTopinfo .close {
+        width: 30px;
+        height: 32px;
+        position: absolute;
+        top: 0;
+        right: 0;
+        -webkit-border-radius: 50%;
+        -moz-border-radius: 50%;
+        border-radius: 50%;
+        background-color: #ffffff;
+        background-image: url("../assets/images/gui/quienes_somos/directorio/close.png");
+        background-position: center;
+        background-repeat: no-repeat;
+        cursor: pointer; }
+      .containerPopUp .holdInfo .holdTopinfo .holdInfo2 {
+        width: 610px;
+        height: 290px;
+        float: left;
+        padding-top: 35px;
+        position: relative;
+        margin-bottom: 30px; }
+        .containerPopUp .holdInfo .holdTopinfo .holdInfo2 h3, .containerPopUp .holdInfo .holdTopinfo .holdInfo2 h4 {
+          text-align: left; }
+        .containerPopUp .holdInfo .holdTopinfo .holdInfo2 h3 {
+          color: #e73541;
+          font-weight: 700; }
+        .containerPopUp .holdInfo .holdTopinfo .holdInfo2 h4 {
+          color: #f0f0f2;
+          font-style: italica; }
+        .containerPopUp .holdInfo .holdTopinfo .holdInfo2 .col p {
+          margin-bottom: 25px;
+          color: #1d1d1d; }
+          .containerPopUp .holdInfo .holdTopinfo .holdInfo2 .col p span {
+            font-weight: 700;
+            color: #1d1d1d; }
+    .containerPopUp .holdInfo .lowInfo {
+      width: 100%; }
+      .containerPopUp .holdInfo .lowInfo h3 {
+        color: #e73541;
+        margin-bottom: 15px; }
+      .containerPopUp .holdInfo .lowInfo ul {
+        float: left;
+        width: 45%;
+        padding-left: 2.5%; }
+        .containerPopUp .holdInfo .lowInfo ul li:before {
+          content: "•";
+          font-style: 30px;
+          font-weight: 700; }
+        .containerPopUp .holdInfo .lowInfo ul li {
+          padding-left: 10px; }
+      .containerPopUp .holdInfo .lowInfo .holdNavs {
+        width: 40px;
+        height: 17px;
+        position: absolute;
+        bottom: 30px;
+        right: 30px; }
+        .containerPopUp .holdInfo .lowInfo .holdNavs .btns {
+          width: 50%;
           height: 100%;
           position: relative;
           float: left;
-          margin-right: 50px; }
-        .directorio_somos .containerPopUp .holdInfo .holdTopinfo .close, .inSections .containerPopUp .holdInfo .holdTopinfo .close, .noticias_comunicacion .containerPopUp .holdInfo .holdTopinfo .close {
-          width: 30px;
-          height: 32px;
-          position: absolute;
-          top: 0;
-          right: 0;
-          -webkit-border-radius: 50%;
-          -moz-border-radius: 50%;
-          border-radius: 50%;
-          background-color: #ffffff;
-          background-image: url("../assets/images/gui/quienes_somos/directorio/close.png");
-          background-position: center;
           background-repeat: no-repeat;
           cursor: pointer; }
-        .directorio_somos .containerPopUp .holdInfo .holdTopinfo .holdInfo2, .inSections .containerPopUp .holdInfo .holdTopinfo .holdInfo2, .noticias_comunicacion .containerPopUp .holdInfo .holdTopinfo .holdInfo2 {
-          width: 610px;
-          height: 290px;
-          float: left;
-          padding-top: 35px;
-          position: relative;
-          margin-bottom: 30px; }
-          .directorio_somos .containerPopUp .holdInfo .holdTopinfo .holdInfo2 h3, .directorio_somos .containerPopUp .holdInfo .holdTopinfo .holdInfo2 h4, .inSections .containerPopUp .holdInfo .holdTopinfo .holdInfo2 h3, .inSections .containerPopUp .holdInfo .holdTopinfo .holdInfo2 h4, .noticias_comunicacion .containerPopUp .holdInfo .holdTopinfo .holdInfo2 h3, .noticias_comunicacion .containerPopUp .holdInfo .holdTopinfo .holdInfo2 h4 {
-            text-align: left; }
-          .directorio_somos .containerPopUp .holdInfo .holdTopinfo .holdInfo2 h3, .inSections .containerPopUp .holdInfo .holdTopinfo .holdInfo2 h3, .noticias_comunicacion .containerPopUp .holdInfo .holdTopinfo .holdInfo2 h3 {
-            color: #e73541;
-            font-weight: 700; }
-          .directorio_somos .containerPopUp .holdInfo .holdTopinfo .holdInfo2 h4, .inSections .containerPopUp .holdInfo .holdTopinfo .holdInfo2 h4, .noticias_comunicacion .containerPopUp .holdInfo .holdTopinfo .holdInfo2 h4 {
-            color: #f0f0f2;
-            font-style: italica; }
-          .directorio_somos .containerPopUp .holdInfo .holdTopinfo .holdInfo2 .col p, .inSections .containerPopUp .holdInfo .holdTopinfo .holdInfo2 .col p, .noticias_comunicacion .containerPopUp .holdInfo .holdTopinfo .holdInfo2 .col p {
-            margin-bottom: 25px;
-            color: #1d1d1d; }
-            .directorio_somos .containerPopUp .holdInfo .holdTopinfo .holdInfo2 .col p span, .inSections .containerPopUp .holdInfo .holdTopinfo .holdInfo2 .col p span, .noticias_comunicacion .containerPopUp .holdInfo .holdTopinfo .holdInfo2 .col p span {
-              font-weight: 700;
-              color: #1d1d1d; }
-      .directorio_somos .containerPopUp .holdInfo .lowInfo, .inSections .containerPopUp .holdInfo .lowInfo, .noticias_comunicacion .containerPopUp .holdInfo .lowInfo {
-        width: 100%; }
-        .directorio_somos .containerPopUp .holdInfo .lowInfo h3, .inSections .containerPopUp .holdInfo .lowInfo h3, .noticias_comunicacion .containerPopUp .holdInfo .lowInfo h3 {
-          color: #e73541;
-          margin-bottom: 15px; }
-        .directorio_somos .containerPopUp .holdInfo .lowInfo ul, .inSections .containerPopUp .holdInfo .lowInfo ul, .noticias_comunicacion .containerPopUp .holdInfo .lowInfo ul {
-          float: left;
-          width: 45%;
-          padding-left: 2.5%; }
-          .directorio_somos .containerPopUp .holdInfo .lowInfo ul li:before, .inSections .containerPopUp .holdInfo .lowInfo ul li:before, .noticias_comunicacion .containerPopUp .holdInfo .lowInfo ul li:before {
-            content: "•";
-            font-style: 30px;
-            font-weight: 700; }
-          .directorio_somos .containerPopUp .holdInfo .lowInfo ul li, .inSections .containerPopUp .holdInfo .lowInfo ul li, .noticias_comunicacion .containerPopUp .holdInfo .lowInfo ul li {
-            padding-left: 10px; }
-        .directorio_somos .containerPopUp .holdInfo .lowInfo .holdNavs, .inSections .containerPopUp .holdInfo .lowInfo .holdNavs, .noticias_comunicacion .containerPopUp .holdInfo .lowInfo .holdNavs {
-          width: 40px;
-          height: 17px;
-          position: absolute;
-          bottom: 30px;
-          right: 30px; }
-          .directorio_somos .containerPopUp .holdInfo .lowInfo .holdNavs .btns, .inSections .containerPopUp .holdInfo .lowInfo .holdNavs .btns, .noticias_comunicacion .containerPopUp .holdInfo .lowInfo .holdNavs .btns {
-            width: 50%;
-            height: 100%;
-            position: relative;
-            float: left;
-            background-repeat: no-repeat;
-            cursor: pointer; }
-          .directorio_somos .containerPopUp .holdInfo .lowInfo .holdNavs .back, .inSections .containerPopUp .holdInfo .lowInfo .holdNavs .back, .noticias_comunicacion .containerPopUp .holdInfo .lowInfo .holdNavs .back {
-            background-image: url("../assets/images/gui/quienes_somos/directorio/back.png");
-            background-position: left; }
-          .directorio_somos .containerPopUp .holdInfo .lowInfo .holdNavs .next, .inSections .containerPopUp .holdInfo .lowInfo .holdNavs .next, .noticias_comunicacion .containerPopUp .holdInfo .lowInfo .holdNavs .next {
-            background-image: url("../assets/images/gui/quienes_somos/directorio/next.png");
-            background-position: right; }
+        .containerPopUp .holdInfo .lowInfo .holdNavs .back {
+          background-image: url("../assets/images/gui/quienes_somos/directorio/back.png");
+          background-position: left; }
+        .containerPopUp .holdInfo .lowInfo .holdNavs .next {
+          background-image: url("../assets/images/gui/quienes_somos/directorio/next.png");
+          background-position: right; }
 
 .noticias_comunicacion .containerPopUp {
   width: 100%;
@@ -615,24 +621,145 @@ nav {
     .organigrama_somos .holdImg_organi img {
       width: 100%; }
 
-.noticias_comunicacion {
+.noticias_comunicacion, .noticias_display {
   height: 1300px;
-  padding-top: 40px; }
-  .noticias_comunicacion .holdNotes, .noticias_comunicacion .hold_gals {
+  padding-top: 40px;
+  padding-bottom: 60px !important; }
+  .noticias_comunicacion h2, .noticias_display h2 {
+    text-align: center;
+    margin-bottom: 30px; }
+  .noticias_comunicacion .holdNotes, .noticias_comunicacion .hold_gals, .noticias_comunicacion .hold_news, .noticias_display .holdNotes, .noticias_display .hold_gals, .noticias_display .hold_news {
     width: 100%;
     height: 1200px;
     position: relative; }
-    .noticias_comunicacion .holdNotes .section-half, .noticias_comunicacion .holdNotes .section-third, .noticias_comunicacion .hold_gals .section-half, .noticias_comunicacion .hold_gals .section-third {
+    .noticias_comunicacion .holdNotes .hold_main_new, .noticias_comunicacion .hold_gals .hold_main_new, .noticias_comunicacion .hold_news .hold_main_new, .noticias_display .holdNotes .hold_main_new, .noticias_display .hold_gals .hold_main_new, .noticias_display .hold_news .hold_main_new {
+      width: 100%;
+      height: auto;
+      padding-bottom: 60px; }
+      .noticias_comunicacion .holdNotes .hold_main_new .noticiasInfoFull, .noticias_comunicacion .hold_gals .hold_main_new .noticiasInfoFull, .noticias_comunicacion .hold_news .hold_main_new .noticiasInfoFull, .noticias_display .holdNotes .hold_main_new .noticiasInfoFull, .noticias_display .hold_gals .hold_main_new .noticiasInfoFull, .noticias_display .hold_news .hold_main_new .noticiasInfoFull {
+        height: auto !important; }
+        .noticias_comunicacion .holdNotes .hold_main_new .noticiasInfoFull .big_img, .noticias_comunicacion .hold_gals .hold_main_new .noticiasInfoFull .big_img, .noticias_comunicacion .hold_news .hold_main_new .noticiasInfoFull .big_img, .noticias_display .holdNotes .hold_main_new .noticiasInfoFull .big_img, .noticias_display .hold_gals .hold_main_new .noticiasInfoFull .big_img, .noticias_display .hold_news .hold_main_new .noticiasInfoFull .big_img {
+          height: 425px; }
+          .noticias_comunicacion .holdNotes .hold_main_new .noticiasInfoFull .big_img .in, .noticias_comunicacion .hold_gals .hold_main_new .noticiasInfoFull .big_img .in, .noticias_comunicacion .hold_news .hold_main_new .noticiasInfoFull .big_img .in, .noticias_display .holdNotes .hold_main_new .noticiasInfoFull .big_img .in, .noticias_display .hold_gals .hold_main_new .noticiasInfoFull .big_img .in, .noticias_display .hold_news .hold_main_new .noticiasInfoFull .big_img .in {
+            height: 415px; }
+      .noticias_comunicacion .holdNotes .hold_main_new .infoText, .noticias_comunicacion .hold_gals .hold_main_new .infoText, .noticias_comunicacion .hold_news .hold_main_new .infoText, .noticias_display .holdNotes .hold_main_new .infoText, .noticias_display .hold_gals .hold_main_new .infoText, .noticias_display .hold_news .hold_main_new .infoText {
+        width: 80%;
+        height: auto;
+        position: relative;
+        margin: 0 auto;
+        padding-bottom: 20px;
+        color: #1d1d1d; }
+        .noticias_comunicacion .holdNotes .hold_main_new .infoText p, .noticias_comunicacion .hold_gals .hold_main_new .infoText p, .noticias_comunicacion .hold_news .hold_main_new .infoText p, .noticias_display .holdNotes .hold_main_new .infoText p, .noticias_display .hold_gals .hold_main_new .infoText p, .noticias_display .hold_news .hold_main_new .infoText p {
+          margin-bottom: 20px;
+          color: #1d1d1d; }
+        .noticias_comunicacion .holdNotes .hold_main_new .infoText h2, .noticias_comunicacion .hold_gals .hold_main_new .infoText h2, .noticias_comunicacion .hold_news .hold_main_new .infoText h2, .noticias_display .holdNotes .hold_main_new .infoText h2, .noticias_display .hold_gals .hold_main_new .infoText h2, .noticias_display .hold_news .hold_main_new .infoText h2 {
+          text-align: left;
+          margin-bottom: 20px; }
+      .noticias_comunicacion .holdNotes .hold_main_new .videoFrame, .noticias_comunicacion .hold_gals .hold_main_new .videoFrame, .noticias_comunicacion .hold_news .hold_main_new .videoFrame, .noticias_display .holdNotes .hold_main_new .videoFrame, .noticias_display .hold_gals .hold_main_new .videoFrame, .noticias_display .hold_news .hold_main_new .videoFrame {
+        width: 775px;
+        height: 465px;
+        position: relative;
+        margin: 0 auto;
+        margin-bottom: 20px; }
+        .noticias_comunicacion .holdNotes .hold_main_new .videoFrame iframe, .noticias_comunicacion .hold_gals .hold_main_new .videoFrame iframe, .noticias_comunicacion .hold_news .hold_main_new .videoFrame iframe, .noticias_display .holdNotes .hold_main_new .videoFrame iframe, .noticias_display .hold_gals .hold_main_new .videoFrame iframe, .noticias_display .hold_news .hold_main_new .videoFrame iframe {
+          width: 100% !important;
+          height: 100%;
+          border: 0; }
+    .noticias_comunicacion .holdNotes .more-news, .noticias_comunicacion .hold_gals .more-news, .noticias_comunicacion .hold_news .more-news, .noticias_display .holdNotes .more-news, .noticias_display .hold_gals .more-news, .noticias_display .hold_news .more-news {
+      width: 100%;
+      background-color: #d2d2d2;
+      height: 400px;
+      padding-bottom: 40px;
+      position: relative; }
+      .noticias_comunicacion .holdNotes .more-news .go_news, .noticias_comunicacion .hold_gals .more-news .go_news, .noticias_comunicacion .hold_news .more-news .go_news, .noticias_display .holdNotes .more-news .go_news, .noticias_display .hold_gals .more-news .go_news, .noticias_display .hold_news .more-news .go_news {
+        position: absolute;
+        bottom: 20px;
+        left: 40px; }
+    .noticias_comunicacion .holdNotes .section-half, .noticias_comunicacion .holdNotes .section-third, .noticias_comunicacion .hold_gals .section-half, .noticias_comunicacion .hold_gals .section-third, .noticias_comunicacion .hold_news .section-half, .noticias_comunicacion .hold_news .section-third, .noticias_display .holdNotes .section-half, .noticias_display .holdNotes .section-third, .noticias_display .hold_gals .section-half, .noticias_display .hold_gals .section-third, .noticias_display .hold_news .section-half, .noticias_display .hold_news .section-third {
       height: 400px;
       margin-bottom: 20px; }
-    .noticias_comunicacion .holdNotes .section-half .noticiasInfo, .noticias_comunicacion .hold_gals .section-half .noticiasInfo {
+    .noticias_comunicacion .holdNotes .section-half .noticiasInfo, .noticias_comunicacion .hold_gals .section-half .noticiasInfo, .noticias_comunicacion .hold_news .section-half .noticiasInfo, .noticias_display .holdNotes .section-half .noticiasInfo, .noticias_display .hold_gals .section-half .noticiasInfo, .noticias_display .hold_news .section-half .noticiasInfo {
       width: 100%; }
-      .noticias_comunicacion .holdNotes .section-half .noticiasInfo .infoIn, .noticias_comunicacion .hold_gals .section-half .noticiasInfo .infoIn {
+      .noticias_comunicacion .holdNotes .section-half .noticiasInfo .infoIn, .noticias_comunicacion .hold_gals .section-half .noticiasInfo .infoIn, .noticias_comunicacion .hold_news .section-half .noticiasInfo .infoIn, .noticias_display .holdNotes .section-half .noticiasInfo .infoIn, .noticias_display .hold_gals .section-half .noticiasInfo .infoIn, .noticias_display .hold_news .section-half .noticiasInfo .infoIn {
         height: 60px; }
-        .noticias_comunicacion .holdNotes .section-half .noticiasInfo .infoIn p, .noticias_comunicacion .hold_gals .section-half .noticiasInfo .infoIn p {
+        .noticias_comunicacion .holdNotes .section-half .noticiasInfo .infoIn p, .noticias_comunicacion .hold_gals .section-half .noticiasInfo .infoIn p, .noticias_comunicacion .hold_news .section-half .noticiasInfo .infoIn p, .noticias_display .holdNotes .section-half .noticiasInfo .infoIn p, .noticias_display .hold_gals .section-half .noticiasInfo .infoIn p, .noticias_display .hold_news .section-half .noticiasInfo .infoIn p {
           font-size: 24px; }
-  .noticias_comunicacion .hold_gals {
+  .noticias_comunicacion .hold_gals, .noticias_display .hold_gals {
     height: 1330px; }
+  .noticias_comunicacion .hold_news, .noticias_display .hold_news {
+    height: auto; }
+  .noticias_comunicacion .mainImg, .noticias_display .mainImg {
+    margin-bottom: 20px; }
+
+.noticias_display {
+  padding-bottom: 0 !important; }
+
+.contacto .titleSect {
+  height: 90px; }
+.contacto .map {
+  width: 100%;
+  height: 340px;
+  position: relative; }
+  .contacto .map iframe {
+    width: 100%;
+    height: 100%;
+    position: absolute; }
+.contacto .holdForm {
+  width: 100%;
+  height: 270px;
+  padding-top: 20px;
+  background-color: #d2d2d2; }
+  .contacto .holdForm h2 {
+    margin-bottom: 20px; }
+  .contacto .holdForm .holdInput {
+    width: 400px;
+    height: 40px;
+    margin-bottom: 20px;
+    position: relative;
+    margin-left: 40px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    border-radius: 10px; }
+    .contacto .holdForm .holdInput input[type="text"] {
+      width: 95%;
+      height: 100%;
+      padding-left: 5%;
+      border: 0;
+      text-align: left;
+      color: #6e6e6e;
+      background-color: #ffffff; }
+  .contacto .holdForm .coment-area {
+    width: 400px;
+    height: 160px;
+    position: relative;
+    margin-left: 40px; }
+    .contacto .holdForm .coment-area textarea {
+      width: 95%;
+      height: 95%;
+      padding-top: 5%;
+      padding-left: 5%;
+      border: 0;
+      text-align: left;
+      color: #6e6e6e;
+      background-color: #ffffff; }
+  .contacto .holdForm .sendBtn {
+    width: 120px;
+    height: 30px;
+    position: absolute;
+    bottom: 20px;
+    right: 56px; }
+    .contacto .holdForm .sendBtn .btn_plac {
+      width: 120px;
+      height: 30px;
+      background-color: #e73541; }
+      .contacto .holdForm .sendBtn .btn_plac p {
+        text-align: center;
+        font-size: 12px;
+        color: #ffffff;
+        margin: 0 auto;
+        position: relative;
+        top: 7px;
+        font-weight: 700; }
 
 footer {
   width: 100%;
@@ -750,9 +877,13 @@ section {
   box-shadow: 0px 0px 5px -1px rgba(50, 50, 50, 0.53); }
 
 #wrapper {
-  width: 1000px;
+  width: 100%;
   height: auto;
   margin: 0 auto; }
+  #wrapper .safeIn-area {
+    width: 1000px;
+    height: 100%;
+    margin: 0 auto; }
   #wrapper .redTag {
     width: 100%;
     height: 125px;

@@ -1,4 +1,5 @@
 nav
+
 	.underNav
 		.innerSub#nosotros-top_sub
 			+btn_sub({link:'quienes_somos', name:'Quienes somos'})
@@ -11,20 +12,22 @@ nav
 			+btn_sub({link:'sitios_de_interes', name:'Sitios de interes'})
 			+btn_sub({link:'transparencia', name:'Transparencia'})
 	.topNav
-		.innertop
-			a(href="#", target="_blank")
-				.fb_top.btn-social
-			a(href="#", target="_blank")
-				.tt_top.btn-social
-			a(href="#", target="_blank")
-				.yt_top.btn-social
+		.safeIn-area
+			.innertop
+				a(href="#", target="_blank")
+					.fb_top.btn-social
+				a(href="#", target="_blank")
+					.tt_top.btn-social
+				a(href="#", target="_blank")
+					.yt_top.btn-social
 	.btmNav.shodowiT
-		ul
-			+btn_list({link:'nosotros', name:'ACERCA DE NOSOTROS', subMenu:'yes'})
-			+btn_list({link:'servicios', name:'SERVICIOS', subMenu:'no'})
-			+btn_list({link:'comunicacion', name:'COMUNICACIÓN', subMenu:'yes'})
-			+btn_list({link:'municipios', name:'MUNICIPIOS', subMenu:'yes'})
-			+btn_list({link:'contacto', name:'CONTACTO',  subMenu:'no' })
+		.safeIn-area
+			ul
+				+btn_list({link:'nosotros', name:'ACERCA DE NOSOTROS', subMenu:'yes'})
+				+btn_list({link:'servicios', name:'SERVICIOS', subMenu:'no'})
+				+btn_list({link:'comunicacion', name:'COMUNICACIÓN', subMenu:'yes'})
+				+btn_list({link:'municipios', name:'MUNICIPIOS', subMenu:'yes'})
+				+btn_list({link:'contacto', name:'CONTACTO',  subMenu:'no' })
 	a(href="/")
 		.logo
 			img(src="http://www.ceascoahuila.gob.mx/qa/assets/images/gui/home/logo.jpg")
