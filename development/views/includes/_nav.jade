@@ -2,15 +2,15 @@ nav
 
 	.underNav
 		.innerSub#nosotros-top_sub
-			+btn_sub({link:'quienes_somos', name:'Quienes somos'})
-			+btn_sub({link:'directorio', name:'Directorio'})
-			+btn_sub({link:'organigrama', name:'Organigrama'})
+			+btn_sub({link:'quienes_somos', link2:'quienes_somos', name:'Quienes somos'})
+			+btn_sub({link:'directorio', link2:'directorio', name:'Directorio'})
+			+btn_sub({link:'organigrama', link2:'organigrama', name:'Organigrama'})
 		.innerSub#comunicacion-top_sub
-			+btn_sub({link:'noticias', name:'Noticias'})
-			+btn_sub({link:'galeria', name:'Galería'})
+			+btn_sub({link:'#', link2:'noticias', name:'Noticias'})
+			+btn_sub({link:'#', link2:'galeria', name:'Galería'})
 		.innerSub#municipios-top_sub
-			+btn_sub({link:'sitios_de_interes', name:'Sitios de interes'})
-			+btn_sub({link:'transparencia', name:'Transparencia'})
+			+btn_sub({link:'sitios_de_interes',link2:'sitios_de_interes', name:'Sitios de interes'})
+			+btn_sub({link:'transparencia', link2:'transparencia', name:'Transparencia'})
 	.topNav
 		.safeIn-area
 			.innertop
@@ -23,11 +23,11 @@ nav
 	.btmNav.shodowiT
 		.safeIn-area
 			ul
-				+btn_list({link:'nosotros', name:'ACERCA DE NOSOTROS', subMenu:'yes'})
-				+btn_list({link:'servicios', name:'SERVICIOS', subMenu:'no'})
-				+btn_list({link:'comunicacion', name:'COMUNICACIÓN', subMenu:'yes'})
-				+btn_list({link:'municipios', name:'MUNICIPIOS', subMenu:'yes'})
-				+btn_list({link:'contacto', name:'CONTACTO',  subMenu:'no' })
+				+btn_list({link:'#', link2:'nosotros', name:'ACERCA DE NOSOTROS', subMenu:'yes'})
+				+btn_list({link:'servicios', link2:'servicios', name:'SERVICIOS', subMenu:'no'})
+				+btn_list({link:'#', link2:'comunicacion', name:'COMUNICACIÓN', subMenu:'yes'})
+				+btn_list({link:'#', link2:'municipios', name:'MUNICIPIOS', subMenu:'yes'})
+				+btn_list({link:'contacto', link2:'contacto', name:'CONTACTO',  subMenu:'no' })
 	a(href="/")
 		.logo
 			img(src="http://www.ceascoahuila.gob.mx/qa/assets/images/gui/home/logo.jpg")

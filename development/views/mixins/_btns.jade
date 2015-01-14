@@ -1,5 +1,5 @@
 mixin btn_list(params)
-	a(href="http://www.ceascoahuila.gob.mx/qa/#{params.link}", class="#{params.subMenu}-sub", id="#{params.link}-top")
+	a(href="http://www.ceascoahuila.gob.mx/qa/#{params.link}", class="#{params.subMenu}-sub", id="#{params.link2}-top")
 		li= params.name
 mixin btn_list2(params)
 	a(href="#", class="direList #{params.active}-act", id="#{params.link}-dir")
@@ -8,8 +8,8 @@ mixin btn_list2(params)
 			|#{params.name2}
 mixin btn_sub(params)
 	a(href="http://www.ceascoahuila.gob.mx/qa/#{params.link}")
-		.btns_sub(id="#{params.link}-sub")
-			.imgInner(id="#{params.link}-img")
+		.btns_sub(id="#{params.link2}-sub")
+			.imgInner(id="#{params.link2}-img")
 			p= params.name
 mixin cuote(params)
 	.redTag
